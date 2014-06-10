@@ -1,0 +1,155 @@
+We would like to thank the anonymous reviewers from PacificVis for their valuable
+feedback that helped make the current revision much better and concise. In the following
+we discuss how we addressed most of the reviewer`s comments.
+The authors
+
+  Justification of design choices 
+We included a requirements analysis and introduced the concept of sense-making and
+decision-making theory to justify the decisions we made w.r.t. our system.
+
+  Details of the implementation
+  Performance and computation cost
+We describe the details of the implementation in greater detail in the extended section 6.
+The performance of the rendering, as well as the cost of the precomputation, is stated and
+explained in this section as well.
+
+  More information on the user feedback
+We added a paragraph drawing conclusions from the feedback we received from the experts
+during our qualitative evaluation.
+
+
+  As an application paper, a requirement analysis should be important. I
+  hope the requirements and the supported tasks can be listed explicitly in
+  the paper.
+We adhered to this comment and included a requirement analysis and state the requirements
+to our system in the introduction.
+
+  The workflow comparison in Section 3 is very important, since it tells
+  the benefit of having the proposed system. However, it is not clear to me
+  what are the differences of these two workflows. Maybe a list summarizing
+  the differences would help.
+We created a workflow figure (Figure 3) describing the differences between the current
+workflow and our proposed solution.
+
+  For the path computation in Section 4.3, I wonder how many POIs can
+  exist. If there are multiple POIs, how to plan the path with A*
+  algorithm?
+We added a discussion on this topic in Section 5.3
+
+  From Figure 1(bc), it seems that the point cloud rendering does not
+  contain the ceiling/roof of the building. On the one hand, I suppose that
+  the ceiling/roof data should be in the point cloud data, and should be
+  important for spatial awareness. One the other hand, if the ceiling/roof
+  is rendered, then the inner structure of the building will be blocked.
+  This is not good. Therefore, I'm wondering how is ceiling/roof treated.
+  Besides, a building usually has multiple floors. In this case, the
+  occulsion problem will be serious in point cloud rendering. However, this
+  is not mentioned in the paper.
+This misunderstanding was clarified in Section 5.5 by adding a new part explaining the use
+of interactive clip planes by the IC.
+
+  In the last paragraph of Section 4.3, it says "some might not arrive
+  at the POI and are discarded". I wonder how is it possible. Given a start
+  point and a POI, all paths calculated from A* algorithm should start from
+  the start point and arrive at the POI. I suppose the only possibility of
+  "not arrive" is that the path does not exist.
+This point was clarified in Section 5.3 by explaining when a path does not exist.
+
+  In the first paragraph of Section 7, it says "to effectively annotate
+  a three dimensional rendering of a filtered point cloud". I wonder how
+  the point cloud is filtered.
+The occupancy-based filtering is explained in greater detail in Sections 5.1 and 6.
+
+  The paper "prepared an expressive video showing the functionalities of
+  out software".  The video helps much better understanding of the whole
+  work. More information of this video should also be discussed in the
+  paper, which is critical for readers to understand. 
+We followed this suggestion and incorporated the video`s information into the paper in
+various places.
+
+  First, many of the images chosen seem to be quite a poor representation
+  of the system features. The teaser images were good; however, Figure 3
+  left much to be desired.  Still images from the video could have been
+  used to much greater effect (the video was very well done!).  In fact,
+  the workflow in the video shows lots of really cool features which are
+  poorly described in the paper.  
+Figure 3 has been removed form the paper and the focus was shifted away from the
+comparison with point-based rendering. We included more of the information contained in
+the video into the paper.
+
+  Next, technical issues are glossed over.  Specifically Section 3 in the
+  current workflow and visualization workflow, there is no sense of the
+  amount of time it takes to generate these layouts, the co-registration,
+  the fly-through, etc.  This was voiced by the users in the informal
+  evaluation.  The runtime of the path computation should also be provided.
+   If the goal of this system is to enable first responders, calculation
+  time needs to be provided for assessment.
+The timings for precomputations, renderings. path computations were added to the
+Implementation section 6. The runtime for the co-registration is negligible as it is
+performed during the real-time exploration (this is explained alongside the SLAM
+reference)
+
+  So, from the abstract, the goal of this paper was to provide users
+  information in a way that is easy to comprehend, and to "describe the
+  design considerations for our system..." It seems likely that the
+  consideration of path distance, inclination of walking surface, etc.
+  would actually fit directly into a risk equation and provide some sort of
+  metric (of course drilling down into multidimensional data is good and
+  using PCP or SPLOMs can help).  However, from the informal feedback, the
+  idea of assessing risk was not really discussed.  Also, in designing the
+  scatterplot to handle four variables, using color and size as distinct
+  variables can result in issues as color perception is directly related to
+  the size of the area which is being colored.
+This misunderstanding was hopefully removed by a more thorough description of the metric,
+as this is the risk equation the reviewer is correctly talking about. The scatterplot
+was replaced by a scatterplot matrix and the variable color and size were removed.
+
+  More details on the datatype for the point clouds should be given.  What
+  is the size of the data, what fields are in the data (earlier there was a
+  discussion of thermal for bodies and sound for heartbeats, is this
+  captured?)
+This point is now discussed in the Implementation section 6. 
+
+  To summarize, this work is extremely interesting and the authors have
+  made a large amount of good headway.  However, the paper needs a clear
+  organization and goal.  If the goal is design constraints, it should
+  focus more on this, describe how you can interact with the system,
+  provide more details that are captured in the video.  If the paper is
+  more focused on rendering of the building, then different tactics need to
+  be chosen.  There is a lot of time spent on the point cloud rendering,
+  but the technique used doesn't produce exceptionally great results. 
+  However, that's not the crux of the work. Instead the authors wind up
+  glossing over issues and leaving our crucial details.  For example, at
+  the end of Section 4.5.2, the authors state "In this section we will
+  describe the implementation details necessary to reproduce this work." 
+  Then there are two sentences which basically states to use the OpenMP
+  framework.  Is that all it takes for this?
+The focus of the paper was removed from the point cloud rendering and shifted towards the
+decision-making support of the system. Furthermore, the requested implementation section
+was improved and describes the details. 
+
+  Related work:
+  The authors should also look at the following papers:
+  William Ribarsky, Kalpathi R. Subramanian, Jianfei Liu, Onyewuchi
+  Obirieze, Jack Guest: Mobile application for first response and emergency
+  evacuation in Urban settings. COM.Geo 2010
+
+  SungYe Kim, Ross Maciejewski, Karl Ostmo, Edward J. Delp, Timothy F.
+  Collins, David S.Ebert. Mobile Analytics for Emergency Response and
+  Training. The Journal of Information Visualization, 7(1): 77-88, March
+  2008.
+Both papers were very relevant and were added to the discussion of related work.
+
+  The axes of the plots in Figure 6 are unreadable.  With overlaps in the
+  profile plot, it is difficult to see which ones end earlier than others.
+  Perhaps other visual encodings could have been used, or highlighting to
+  help see the shortest paths?
+The axes of the plots were redone. Furthermore, the plots are presented bigger to improve
+readability more.
+
+  - Add a system overview, with the various components. Also, you should
+  describe the implementation. In principle, the paper needs to be as
+  reproducible as possible, and right now, it is not possible to know
+  what's "under the hood".
+A workflow figure was added to the paper, as well as an overview screenshot of the
+complete system. The implementation is described in more detail in Section 6.

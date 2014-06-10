@@ -1,0 +1,571 @@
+-------------------------------------------------------------------
+
+------------------------ Submission 249, Review 2 ------------------------
+
+Title: Decision-Support for Urban Search & Rescue Mission Planning through Visualization-Based Analysis
+
+Reviewer:           primary
+
+Second Round Recommendation
+
+
+
+Second Round Review Text
+
+
+Summary Rating
+
+  2  (<b>Probably reject:</b> This paper is not ready for publication even with major changes.)
+
+Summary Review (1st review cycle)
+
+  This paper presents a very interesting system that helps solve a
+  practical problem. The paper is generally well written and easy to
+  follow. Although this work has some merits, there are a few serious
+  issues in the paper:
+  -. Technical novelty is low
+  -. Design rational is unclear and problematic
+  -. Evaluation is unconvincing
+  -. Missing many references
+  -. Usability of the system is questionable 
+
+  The issues  cannot be addressed in a short time. Nevertheless, this work
+  has great potential. The authors are highly encouraged to continue this
+  work.
+
+Type of Paper
+
+  Application / Design Study
+
+Novelty
+
+  Weakly advocate against 
+
+Significance
+
+  Strongly advocate for
+
+Significance/Novelty: Rating Justification
+
+  This paper targets a very important problem in real world – urban
+  search and rescue planning. The authors present a comprehensive
+  visualization system combining a 3D path visualization, PCPs, scatterplot
+  matrix, and line charts to address the problem. Although the techniques
+  are not particularly new, the authors combine the techniques in a new way
+  to solve a very interesting and important problem. The usefulness of the
+  overall system have been demonstrated in the case studies and expert
+  review. The contribution is significant as the work provides a useful 3D
+  visualization solution to the problem.
+
+Significance/Novelty: How To Improve? 
+
+  The authors are highly encouraged to continue to improve the system by
+  considering other alternative multidimensional visualization techniques.
+  The PCPs and Scatterplot matrix may not be the best choice.
+
+  The authors can also explore how to find a good set of parameters for the
+  metric (Equation (1)) automatically.
+
+Exposition and Detail
+
+  Somewhat
+
+Exposition and Detail: How To Improve?
+
+  I’d like to see more details on the major application case and the two
+  test cases which are quite critical to demonstrate the usability of the
+  system. For example, the author should explain more about how these
+  linked views can facilitate the exploration of the desired path.
+
+Paper Length
+
+
+Limitations and Drawbacks
+
+  There are several following drawbacks needed to be addressed:
+
+  Regarding to the path computation (or route planning), what is the
+  difference between the proposed algorithm and the ones [4,28] mentioned
+  in related work section. The metric (Equation (1)) is critically
+  important for path computation. However, the linear weighted combination
+  of different weights could easily result in many different parameter
+  combinations. The authors should clarify how to select good weights. Is
+  there any practical strategy to get a good set of weights? Otherwise the
+  IC may need to spend much longer time (2 minutes for each path in
+  authors’ case) on adjusting the weights to obtain an optimal path,
+  which could lead to limited use of the system.
+
+  Regarding to the visual path analysis tools such as PCP, SPLOM, the
+  design rationality like ensuring or breaking the visual link is
+  reasonable. However, a better design rational should be provided. When
+  there are so many multivariate visual data analysis tools, why the two
+  have been selected? The user feedback is actually against their choice.
+  In this paper, there are only a few computed paths. PCPs, which is mainly
+  used for visualizing many data items, may not be the best choice here to
+  visualize the data.
+
+  In section 5.1, it is unclear how the authors determine to use these
+  different types of data attributes? Are these attributes suggested by the
+  domain experts or borrowed from some related work? 
+
+Method Evaluation 
+
+  The evaluation is overall good and can demonstrate the effectiveness and
+  usefulness of the system. However, the expert review conducted by showing
+  the experts only the images or videos is somehow not effective. Although
+  some useful feedback has been collected, this expert review may not
+  provide the insight into the tool. 
+
+  A training part has been missed in the evaluation, which may lead to the
+  difficulty for the experts to understand the PCP or SPLOM. In Step 2 of
+  the webpages provided by the authors, the color and width of the paths
+  should be more salient.
+
+References
+
+  The references are complete.
+
+Final Judgment: Overall rating
+
+  3  (<b>Borderline:</b> This paper might be acceptable with major  changes.)
+
+Final Judgment: Justification
+
+  This paper is well written and well-motivated. It targets a very
+  interesting and important problem of urban search and rescue mission
+  planning. The solution with a combination of 3D Visualization, PCPs, and
+  scatterplot matrix to the problem is novel. However, there are still a
+  few issues the authors must address.
+  First, the authors must provide a clearer rationale for the designs, a
+  more comprehensive description of the design choices and systematic,
+  critical evaluation that informs the reader as to where the approaches
+  are either really stretched or fail completely would be very helpful.
+  Interaction should be considered. Munzner's Nested Model paper could
+  provide some guidance here (DOI:10.1109/TVCG.2009.111). Some design such
+  as PCPs and scatterplots are actually not effective. 
+
+  Second, the expert review is weak since the authors provide only images
+  and videos to the domain experts. The feedback of the users on the PCPs
+  and scatterplots is actually quite negative. This reflects that the
+  authors did not carefully design the visualization components.
+
+  Therefore, this paper is a borderline paper.
+
+Ultimate Judgment
+
+  top 50%
+
+Expertise
+
+  3  (Expert)
+
+
+------------------------ Submission 249, Review 1 ------------------------
+
+Title: Decision-Support for Urban Search & Rescue Mission Planning through Visualization-Based Analysis
+
+Reviewer:           secondary
+
+Type of Paper
+
+  System
+
+Novelty
+
+  Weakly advocate for
+
+Significance
+
+  Weakly advocate for
+
+Significance/Novelty: Rating Justification
+
+  The ideas presented in this paper are not novel and straight forward.
+  Technology will evolve and will sooner or later replace hand-drawn maps
+  used during SAR missions. The authors of this paper present and evaluate
+  an approach to this but it will need much more iterations until such
+  systems gain acceptance and are perfectly suited for those applications.
+
+Significance/Novelty: How To Improve? 
+
+  A survey among experts on how to improve SAR mission planning with
+  current technology in advance might have helped to identify possible
+  avenues without overwhelming experts with a selection of information
+  visualization techniques (PCP, SPLOM) in a prototyped system.
+  E.g. the integration of requested camera images into the visualization
+  would have possibly increased the acceptance dramatically.
+
+Exposition and Detail
+
+  Somewhat
+
+Exposition and Detail: How To Improve?
+
+  It might be more useful to assign the same axis format to the SPLOM as
+  done for the PCP. E.g. the minimum distance to hazards axis in the SPLOM
+  should have the same orientation as in the PCP with the meaning of "good"
+  for small x values (left) and the meaning of "bad" for large x values
+  (right). That might help to increase the acceptance for SPLOM if the
+  meaning of points across visualizations is even more unified.
+
+  It is unclear why there is a medium to large support filed on the walls
+  in Figure 5b which do clearly not coincide with horizontal surfaces.
+
+  It is also unclear why there can be areas where a responder can stand but
+  not crouch and why responders should be able to crouch on walls as
+  depicted in Figure 5d.
+
+  The caption of Figure 3 points to the FEMA annotations in the image that
+  are hardly visible on a printed copy of the paper. The size of the image
+  should be larger.
+
+  There are some minor typos and wrong references to Figures.
+  e.g.:
+  - caption of Figure 1: "... at the a collapsed ..."
+  - caption of Figure 8: "(a)", "(b)" and "(c)" seem to be swapped
+  - caption of Figure 7: The symbol "r" is not introduced but used in the
+  text. It looks like 'r' is the same as 'u' otherwise the authors should
+  clarify that.
+
+Paper Length
+
+  There is nothing to object.
+
+Limitations and Drawbacks
+
+  As reported by the experts too much information (SPLOM) is presented to
+  them that requires training. SPLOMs are made for scientists and not for
+  fire fighters.
+  Camera images mapped to the voxels would potentially give them the
+  information they need.
+
+Method Evaluation 
+
+  It would be very interesting to integrate the proposed approach in a
+  simulated environment and measure how trained teams perform with and
+  without the new system.
+
+References
+
+  There is nothing to object.
+
+Final Judgment: Overall rating
+
+  4  (<b>Probably accept:</b> This paper will be acceptable with minor changes.)
+
+Final Judgment: Justification
+
+  I weakly argue for accepting this paper because it is very well written
+  and convincing but decisions to confront domain experts with PCPs and
+  SPLOMs seem to be only made for the targeted visualization conference and
+  not for the requirements of the experts which renders the approach
+  questionable.
+
+Ultimate Judgment
+
+  top 25%
+
+Expertise
+
+  2  (Knowledgable)
+
+
+------------------------ Submission 249, Review 3 ------------------------
+
+Title: Decision-Support for Urban Search & Rescue Mission Planning through Visualization-Based Analysis
+
+Reviewer:           external
+
+Type of Paper
+
+  System
+
+Novelty
+
+  Weakly advocate against 
+
+Significance
+
+  Weakly advocate against 
+
+Significance/Novelty: Rating Justification
+
+  Although the paper provides a visualization system for making decision to
+  support rescue mission planning, the effects of visualization components
+  embedded in the system has not been fully clarified through the user
+  study. Thus additional user studies with more sophisticated design should
+  be conducted to fully assess and justify the proposed system integration.
+
+Significance/Novelty: How To Improve? 
+
+  Additional control experiments must be mandatory for evaluating each
+  visualization component implemented in the system. For example, the
+  participants (domain experts) should be divided into two groups, where
+  one group is asked to use the system together with all the visualization
+  components while the other group does the same task while one specific
+  visualization functionality is missing. In this way, we can evaluate the
+  usefulness of each of visualization components including profile plots,
+  parallel coordinates plots, and scatterplot matrices.
+
+  The design of the user study conducted in this work has not fully
+  elaborated and thus the associated results are not fully convincing.
+
+Exposition and Detail
+
+  Somewhat
+
+Exposition and Detail: How To Improve?
+
+  Basically the paper has been well-written.
+
+  However, the paper does not fully describe how the visualization
+  techniques such as parallel coordinates plots and scatterplot matrices
+  help users to find feasible paths in the proposed visualization system. 
+  Explanations in Section 5.4 should be revised to address this issue.
+
+  Furthermore, several other explanations and mathematical notations are
+  not still unclear. Example includes:
+
+  p.4, left
+  - ", and H^i_s the normalized severity for i."
+
+  How can we compute the normalized severity?
+
+  p.4, left
+  - "min_j( L_2( i, H^j ), H^J_s )"
+
+  What is H^j?  Is it the j-th hazard point of the set H?
+
+  p.4, right
+  - Eq(1)
+
+  Did you describe how we can manage to adjust the four weight
+  values?
+
+
+  In addition, some minor issues...
+
+  p.4, left
+  - "... path ensemble is described in the same section, while ..." 
+
+  the same section -> Section 5.4?
+
+  p.4, right
+  - "... the list and marked as visited. the current point is ..."
+
+  the -> The  
+
+Paper Length
+
+  The paper should be shorted when the content is taken into account.  I
+  cannot specifically indicate which part should be omitted, while I would
+  like to suggest  several possibilities:
+
+  - Sections 3 and 4 are interesting and beneficial for those who are not
+  fully familiar with these concepts while not all of the issues discussed
+  in these sections are not necessary to understand the system
+  implementations described in the following sections. Thus, it is possible
+  to exclude irrelevant concepts for understanding the core of this
+  approach.
+
+  - Section 8 is quite unclear and not fully systematic. Try to employ some
+  tables, for example, to clarify how the participants are classified into
+  group according to the visualization components implemented in the
+  system.  This part can be considerably reduced.
+
+Limitations and Drawbacks
+
+  Limitations and drawbacks are implicitly described in the Evaluation
+  section (Section 8), while the description remains to be improved
+  somehow.
+
+Method Evaluation 
+
+  This is one of the most important factors for the evaluation of this work
+  since this will be categorized into a system paper. As described above,
+  systematic control experiments must be conducted to evaluate each of the
+  visualization components embedded in the system.
+
+  Indeed, it is crucial to assess how the incorporated visualization
+  frameworks (profile plots, parallel coordinates plots, scatterplot
+  matrices) really enhance the decision making for planning rescue
+  missions.  In the current version of the paper, the participants are just
+  asked to interact with the visualization components and leave their
+  feedback, while this will not fully elucidate the practical value of the
+  visualization system.
+
+References
+
+  More references should be listed on the visual analytic side, including
+  state-of-the-art techniques for exploring high-dimensional datasets. Some
+  of the possible references (not limited to)
+
+  A. Tatu, F. Maass, I. Farber, E. Bertini, T. Schreck,
+  T. Seidl, and D. Keim. Subspace search and visualization to
+  make sense of alternative clusterings in high-dimensional
+  data. In Proceedings of IEEE Conference on Visual Analytics
+  Science and Technology (VAST), pages 63-72, 2012.
+
+  X. Yuan, D. Ren, Z. Wang, and C. Guo. Dimension projection
+  matrix/tree: Interactive subspace visual exploration and
+  analysis of high dimensional data. IEEE Transactions on
+  Visualization and Computer Graphics, 19(12):2625-2633, 2013.
+
+Final Judgment: Overall rating
+
+  2  ( <b>Probably reject:</b> This paper is not ready for publication even with major changes.)
+
+Final Judgment: Justification
+
+  The paper provides an interesting insight into how we can apply
+  conventional visualization techniques to specific problems for rescue
+  mission planning.  In this sense, the paper has potential to encourage
+  technical cooperation among researchers both in the field of robotics and
+  visualization.
+
+  Nonetheless, the system is still just the combination of existing
+  visualization techniques and several important issues on why the proposed
+  combination is practically reasonable are not fully clarified in the
+  paper.  The system can also be compared with existing decision support
+  systems that are most relevant to the target task.
+
+  Furthermore, especially as for a paper to be presented in "Visualization"
+  conference, we need to see how the respective visualization components in
+  the system actually
+  help the incident commander to make decisions and plan rescue missions. 
+  In this aspect, the work still need more sophisticated design of user
+  studies including control experiments described above.
+
+Ultimate Judgment
+
+  the rest
+
+Expertise
+
+  2  (Knowledgable)
+
+
+------------------------ Submission 249, Review 4 ------------------------
+
+Title: Decision-Support for Urban Search & Rescue Mission Planning through Visualization-Based Analysis
+
+Reviewer:           external
+
+Type of Paper
+
+  System
+
+Novelty
+
+  Weakly advocate against 
+
+Significance
+
+  Weakly advocate against 
+
+Significance/Novelty: Rating Justification
+
+  The paper describes a comprehensive system for visualizing and analyzing
+  3D point cloud from LiDAR scans to optimize the workflow of search and
+  rescue missions. The system allows users to select and interactively
+  browse through a set of possible paths to reach a rescue target inside
+  buildings. For each path, profiling information such as hazard distance
+  and support structure would also be provided. The authors also conducted
+  a user study through videos and web interface.
+
+  Though the problem tackled the paper was well of interest of the
+  visualization community, there was little novelty in the algorithms
+  proposed in the system. The visualization techniques used in here are
+  well-known and the way that they had been applied to the data was also
+  not new. 
+
+  It is also uncertain how the system would be used in a real-world
+  pipeline. It doesn't sound efficient for a rescue team to arrive at a
+  crash site first to send in a robot (which might takes time to scan),
+  extracting the data, preprocessing and exploring several option on a
+  computer before sending in support. If this is the case, the authors need
+  to state it clear in the paper (preferably with a reference).
+
+Significance/Novelty: How To Improve? 
+
+  Points were being processed and visualized in a fairly simple way (vertex
+  clustering and block visualization). I believe more advanced techniques
+  could be applied to better enhance these visualizations, thus, to further
+  assist users in exploration tasks. For example, handling multi-resolution
+  data with hierarchical grids and a smoother point visualizing, e.g.
+  splatting.
+
+  As suggested above, the practicality of using the system on site is
+  unconvincing. The authors should provide a reference to such use or
+  adjust the motivation to a more off-line usage of the system.
+
+Exposition and Detail
+
+  Somewhat
+
+Exposition and Detail: How To Improve?
+
+  Some details are not clear in the paper. In particular:
+
+  - how many paths would be presented to the users initially. In the paper
+  and video, there seems to be 8 but will the users control this
+  parameters?
+
+  - how the scalar map (e.g. for hazard distance) is specified and how
+  sensitive is the colormaps to users tasks.
+
+  - how the space availability visualization (Figure 5d) being used in the
+  practice.
+
+Paper Length
+
+  The paper length is appropriate.
+
+Limitations and Drawbacks
+
+  The 3D visualization has a very "blocky" feel. Though it make sense to
+  embed the data in a grid-like structure for analysis purposes, it might
+  be more informative to present the original point cloud to the user. The
+  point cloud would be close to actual shape of site and users may greatly
+  increase user's spatial awareness.
+
+
+Method Evaluation 
+
+  The evaluation was divided into sub-tasks (rendering, path finder, etc.),
+  but missing an evaluation of the system as a whole, i.e. evaluating
+  whether the system could be used for carrying out a specific mission.
+  This is important since the main contribution of the paper was a
+  comprehensive system. In order to do this, the system may have to be
+  evaluated live by the users (e.g. giving them access to the binaries)
+  instead of letting them interact through videos.
+
+References
+
+  The references are sufficient.
+
+Final Judgment: Overall rating
+
+  2  ( <b>Probably reject:</b> This paper is not ready for publication even with major changes.)
+
+Final Judgment: Justification
+
+  Overall, the paper is well-written but lacking novelty in new algorithms
+  as well as the way existing techniques are being used. Though search and
+  rescue would make an important showcase with great impact for
+  visualization, the problem statement was not very strong as stated in
+  justification for significance. I believe the paper is not ready for
+  publication and would would strongly suggest the authors to further
+  extend the use of visualization as well as the evaluation method.
+
+Ultimate Judgment
+
+  top 50%
+
+Expertise
+
+  2  (Knowledgable)
+
+
+
+--------------------------------------------------------------------

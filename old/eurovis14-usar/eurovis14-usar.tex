@@ -1,0 +1,122 @@
+\documentclass{egpubl}
+\usepackage{eurovis2014}
+
+% --- for  Annual CONFERENCE
+\ConferenceSubmission   % uncomment for Conference submission
+% \ConferencePaper        % uncomment for (final) Conference Paper
+% \STAR                   % uncomment for STAR contribution
+% \Tutorial               % uncomment for Tutorial contribution
+% \ShortPresentation      % uncomment for (final) Short Conference Presentation
+% \Areas                  % uncomment for Areas contribution
+% \MedicalPrize           % uncomment for Medical Prize contribution
+% \Education              % uncomment for Education contribution
+%
+% --- for  CGF Journal
+% \JournalSubmission    % uncomment for submission to Computer Graphics Forum
+% \JournalPaper         % uncomment for final version of Journal Paper
+%
+% --- for  CGF Journal: special issue
+%\SpecialIssueSubmission    % uncomment for submission to Computer Graphics Forum, special issue
+% \SpecialIssuePaper         % uncomment for final version of Journal Paper, special issue
+%
+% --- for  EG Workshop Proceedings
+% \WsSubmission    % uncomment for submission to EG Workshop
+% \WsPaper         % uncomment for final version of EG Workshop contribution
+%
+ \electronicVersion % can be used both for the printed and electronic version
+
+% !! *please* don't change anything above
+% !! unless you REALLY know what you are doing
+% ------------------------------------------------------------------------
+
+% for including postscript figures
+% mind: package option 'draft' will replace PS figure by a filname within a frame
+\ifpdf \usepackage[pdftex]{graphicx} \pdfcompresslevel=9
+\else \usepackage[dvips]{graphicx} \fi
+
+\PrintedOrElectronic
+
+% prepare for electronic version of your document
+\usepackage{t1enc,dfadobe}
+
+\usepackage{egweblnk}
+\usepackage{cite}
+\usepackage[usenames,dvipsnames,svgnames]{xcolor}
+\usepackage{subfigure}
+\usepackage{flushend}
+\usepackage[compact]{titlesec}
+\usepackage[normalem]{ulem}
+\usepackage{titlesec}
+
+\def\etal{\textit{et al.}}
+\renewcommand\floatpagefraction{1.0}
+\renewcommand\topfraction{1.0}
+\renewcommand\bottomfraction{.9}
+\renewcommand\textfraction{.1}
+\setcounter{totalnumber}{20}
+\setcounter{topnumber}{10}
+\setcounter{bottomnumber}{10}
+\definecolor{MyGreen}{rgb}{0,0.7,0}
+\definecolor{MyWhite}{rgb}{1,1,1}
+\definecolor{MyGray}{rgb}{0.5,0.5,0.5}
+\definecolor{LightGray}{rgb}{0.7,0.7,0.7}
+\definecolor{DarkGray}{rgb}{0.3,0.3,0.3}
+\definecolor{DarkYellow}{rgb}{0.7,0.7,0.0}
+\definecolor{MyNavyBlue}{rgb}{0.2,0.3,0.7}
+\definecolor{darkgreen}{rgb}{0,0.55,0}
+\newcommand{\black}[1]{{\color{Black} #1}}
+\newcommand{\white}[1]{{\color{MyWhite} #1}}
+\newcommand{\gray}[1]{{\color{MyGray} #1}}
+\newcommand{\red}[1]{{\color{red} #1}}
+\newcommand{\green}[1]{{\color{MyGreen} #1}}
+\newcommand{\blue}[1]{{\color{MyNavyBlue} #1}}
+\newcommand{\yellow}[1]{{\color{DarkYellow} #1}}
+\newcommand{\maybe}[1]{\yellow{#1}}
+\newcommand{\rout}[1]{\red{\sout{#1}}}
+\newcommand{\repl}[2]{\rout{#1} \green{#2}}
+\newcommand{\fix}[1]{\red{\emph{(#1)}}}
+\newcommand{\Fix}[1]{\begin{itemize} \renewcommand\labelitemi{\red{--}} \item \red{#1} 
+\end{itemize}}
+
+\newcommand{\todo}[1] {\textbf{[~}\textcolor {red}{#1}\marginpar{\textcolor {red}{\centerline{{\Huge \textbf{!}}}}}\textbf{~]}}
+\newcommand{\question}[1] {\textbf{[~}\textcolor {darkgreen}{#1}\marginpar{\textcolor {darkgreen}{\centerline{{\Huge \textbf{!}}}}}\textbf{~]}}
+\newcommand{\diff}[1]{[\textcolor{blue}{#1}\marginpar{\textcolor{blue}{\centerline{{\Huge \textbf{!}}}}}]}
+
+
+\def\IC{IC}
+\def\SAR{SAR}
+\def\USAR{USAR}
+
+\setlength\fboxsep{0pt}
+\setlength{\textfloatsep}{8.5pt}
+%\setlength{\dbltextfloatsep}{15pt}
+%\setlength{\parskip}{4pt}
+%\setlength{\parindent}{1em}
+
+% end of prologue
+
+\input{preamble.tex}
+
+\begin{document}
+\maketitle
+
+\input{abstract.tex}
+
+\input{introduction.tex}
+\input{relatedwork.tex}
+\input{theory.tex}
+\input{workflow.tex}
+\input{systemoverview.tex}
+\input{implementation.tex}
+\input{applicationcase.tex}
+\input{evaluation.tex}
+\input{conclusions.tex}
+\input{acknowledgements.tex}
+%% if specified like this the section will be ommitted in review mode
+
+\newpage
+\bibliographystyle{eg-alpha-doi}
+%%use following if all content of bibtex file should be shown
+%\nocite{*}
+\bibliography{bibliography}
+\end{document}

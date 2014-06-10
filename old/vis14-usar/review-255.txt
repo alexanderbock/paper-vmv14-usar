@@ -1,0 +1,428 @@
+EuroVis 2014 Papers
+
+Reviews of submission #255: "Decision-Support for Urban Search & Rescue
+Mission Planning through Visualization-Based Analysis"
+
+------------------------ Submission 255, Review 1 ------------------------
+
+
+Paper Type
+
+   Application / Design Study
+
+Scope (relevance to the event)
+
+   3  (Core topic, fits well)
+
+Contribution (novelty, originality)
+
+   2  (Minor: only incremental improvements over previous work)
+
+References
+
+   3  (At large, all important references are included)
+
+Utility, Importance (relevance in general)
+
+   3  (Addresses clear need)
+
+Soundness (technical soundness, soundness of approach)
+
+   2  (Some concerns on correctness, some choices questionable)
+
+Reproducability
+
+   2  (Many issues discussed, but some important details left out)
+
+Presentation Quality
+
+   4  (Good: only minor typos and grammar problems)
+
+Overall Rating
+
+   2  (Probably reject: I would argue for rejecting this paper.)
+
+Argumentation Overall Rating
+
+   The paper is very well written and addresses an important topic. An
+   analysis system for decision support in rescue-mission planning is
+   presented. The employed visualization techniques (parallel coordinates,
+   scatter plot matrices, profile plots, linked views) are well known. The
+   weak point of the paper is the evaluation. Only three experts have been
+   shown the system (admittedly it is very likely not easy to find a large
+   number of domain experts on such a specialized application scenario).
+   Though the paper gives a convincing motivation for the need of such
+   visual decision-support systems, it does not become clear why the design
+   choices make sense. How were parallel coordinate plots and scatter plot
+   matrices helpful to the domain experts? What knowledge and insight did
+   they gain, which would not have been possible without the system? The
+   system is tested on post-mortem data, how would it behave in a real-world
+   scenario? Would scalability (with respect of number of paths, building
+   complexity, dynamics of scene) be an issue? Though the system looks
+   interesting, more concrete evidence on the applicability, usability would
+   be necessary and limitations should be discussed. In a real-world
+   scenario there might be constraints (data acquisition, processing, need
+   for optimizations) which could severely impact the usage of the presented
+   system. With the very preliminary evaluation and being tested on just one
+   scenario, the merit of the system does not become clear.
+
+Expertise
+
+   3  (Knowledgeable)
+
+The Review
+
+   Overall comments
+   The paper is very well written and addresses an important topic. An
+   analysis system for decision support in rescue-mission planning is
+   presented. The employed visualization techniques (parallel coordinates,
+   scatter plot matrices, profile plots, linked views) are well known. The
+   weak point of the paper is the evaluation. Only three experts have been
+   shown the system (admittedly it is very likely not easy to find a large
+   number of domain experts on such a specialized application scenario).
+   Though the paper gives a convincing motivation for the need of such
+   visual decision-support systems, it does not become clear why the design
+   choices make sense. How were parallel coordinate plots and scatter plot
+   matrices helpful to the domain experts? What knowledge and insight did
+   they gain, which would not have been possible without the system? The
+   system is tested on post-mortem data, how would it behave in a real-world
+   scenario? Would scalability (with respect of number of paths, building
+   complexity, dynamics of scene) be an issue? Though the system looks
+   interesting, more concrete evidence on the applicability, usability would
+   be necessary and limitations should be discussed. In a real-world
+   scenario there might be constraints (data acquisition, processing, need
+   for optimizations) which could severely impact the usage of the presented
+   system. With the very preliminary evaluation and being tested on just one
+   scenario, the merit of the system does not become clear.
+   	
+
+   Detailed remarks:
+   - page 1: caption Figure 1a: "a insight" should be "an insight"
+   - page 4: "extend the number" should be "extends the number"
+   - page 4: "extend planning" should be "extends planning"
+   - page 5: caption Figure 4: "using usage" should be "usage"
+   - page 5: caption Figure 4: "allows or" ??
+   - page 5: "be to steep" should be "be too steep"
+   - page 5: "In our tests … greater stability": In what sense?
+   - page 6: caption Figure 5: "Three" should be "Four"
+   - page 6: "w_h,n,s,sup": Strange notation. Many parameters used. How are
+   they determined? How does this influence stability?
+   - page 6: "amount of supporting" should be "number of supporting"
+   - Figure 6: Labels illegible. Meaning of color in 6(c)?
+   - page 8: "face normal": Which face? What is meant here?
+   - page 8: "increase the y value": Unclear without giving details on the
+   used coordinate system.
+   - page 8: "select a path": Only one, or can several be selected?
+   - page 8: "co-registered point": Can this be done in real-time in an
+   emergency scenario?
+   - page 8: "ensemble of paths": How many?
+   - page 8: "sample this space on a regular grid": Is this tractable
+   considering the 6-dimensional space?
+   - page 8: "10^5": Seems quite a low number considering the 6-dimensional
+   space. How does this impact accuracy?
+   - page 9: "shorter the paths" should be "shorter paths"
+   - page 9: "through more unstable areas": Where do I see this? Which
+   features where detected with the system?
+   - page 9: "prominence of the purple": In what sense?
+   - page 9: "would be useful for 2D navigation": ??
+   - page 9: "for a higher resolution …": Unclear
+   - page 9: "future plans of performing": How concrete is this? More
+   details on where to get the data, involved domain experts aso. would be
+   interesting.
+   - page 9: "optimizes", "effectively annotate": Just assertions which
+   would need substantiation.
+   - page 9: "large number of paths": The example seems to include only a
+   rather small number of paths.
+   - page 10: "multi-dimensional g": ???
+
+
+------------------------ Submission 255, Review 2 ------------------------
+
+
+Paper Type
+
+   Application / Design Study
+
+Scope (relevance to the event)
+
+   3  (Core topic, fits well)
+
+Contribution (novelty, originality)
+
+   3  (Reasonable: some valuable contribution)
+
+References
+
+   3  (At large, all important references are included)
+
+Utility, Importance (relevance in general)
+
+   3  (Addresses clear need)
+
+Soundness (technical soundness, soundness of approach)
+
+   3  (Approach is (technically) correct and well justified)
+
+Reproducability
+
+   2  (Many issues discussed, but some important details left out)
+
+Presentation Quality
+
+   3  (Fair: some structural changes or some wordsmithing needed)
+
+Overall Rating
+
+   3  (Borderline: the strengths and weaknesses balance for this paper.)
+
+Argumentation Overall Rating
+
+   In this paper, the author proposed a system to help incident commanders
+   make decisions in urban search & rescue scenarios. The problem seems 
+   important and the system they proposed seems much better than the current
+   workflow. The weaknesses of the paper are: 1) the case study is too short
+   and not very convincing. 2) The system has not been tested with any
+   real-world application case.  3) The visualizations are well known and
+   the paper did not discuss alternative design choices much. It is hard to
+   see how other people can benefit from reading this paper. 
+
+Expertise
+
+   3  (Knowledgeable)
+
+The Review
+
+   The paper addresses an interesting and challenging analytic problem.
+   Urban Searching & Rescuing is indeed very important and according to the
+   description of the authors, the current workflow is quite poor (shown in
+   Figure 2). The authors proposed a novel visualization system to help
+   incident commanders to choose the best path for searching and rescuing.
+   The whole system is well presented. 
+
+   Strong points:
+   + The question is important 
+   + They collaborated with the domain experts and proposed four design
+   guidelines for system design
+   + The performance of the system they proposed is good (The data
+   processing costs about 1~2 minutes and the other parts are in real-time.
+
+   Weak points:
+   - The structure of the introduction is confusing. It looks awkward that
+   the system requirement appears in the last paragraph of the Introduction.
+
+   - The case study part is weak. The case study seems being conducted by
+   the authors themselves, which is not convincing. Due to the lack of the
+   real data, it is also hard to know if the system is indeed helpful.
+   - The evaluation part is also weak. First, they authors didn’t say if
+   the three experts are the same ones who help them point out the four
+   requirements. If so, the questions the authors asked are not good.
+   Second, just as the experts themselves said, it is not enough to just
+   show them the videos. 
+   - The visualizations (heatmap, parallel coordinates) used are well known.
+   As an application paper, novelty is not a critical criterion. However, we
+   expect more discussions on design choices. Have any alternative visual
+   designs been considered?  It is not clear how other researchers can
+   benefit from reading this paper. 
+
+
+------------------------ Submission 255, Review 3 ------------------------
+
+
+Second Round Review Text
+
+
+Second Round Recommendation
+
+   
+
+Summary Review Text
+
+   The reviewers tend to a borderline-reject judgement for this paper. 
+
+   Here are the key points:
+     + topic is interesting for the community
+     + the tasks and use cases are well motivated
+     + the system is well described 
+     - use cases is interesting but needs more real-world justification 
+     - justify and discuss your design decision - as the applied
+   visualization
+       techniques are well known
+     - usability, scalability and limitations must be discussed
+     - evaluation is very preliminary and not sufficient to support the
+   claims
+
+   Overall, it seems that the paper is not ready for publication.
+   The reviewers' concerns on the novelty, justification for design
+   decisions, and evaluation, would require major work, and therefore decide
+   not to accept this paper. However, would encourage the authors to pursue
+   their work and take the reviewers' comments to improve their work.
+
+Summary Rating
+
+   2  (Probably reject: I would argue for rejecting this paper.)
+
+Paper Type
+
+   System
+
+Scope (relevance to the event)
+
+   3  (Core topic, fits well)
+
+Contribution (novelty, originality)
+
+   3  (Reasonable: some valuable contribution)
+
+References
+
+   3  (At large, all important references are included)
+
+Utility, Importance (relevance in general)
+
+   3  (Addresses clear need)
+
+Soundness (technical soundness, soundness of approach)
+
+   3  (Approach is (technically) correct and well justified)
+
+Reproducability
+
+   3  (Everything critical is discussed)
+
+Presentation Quality
+
+   4  (Good: only minor typos and grammar problems)
+
+Overall Rating
+
+   3  (Borderline: the strengths and weaknesses balance for this paper.)
+
+Argumentation Overall Rating
+
+   the paper is system paper and well written, interesting and well
+   motivated.
+
+   the major draw back is that the evaluation does not match the claims.
+   i do not think the problem is the evaluation. A system paper, like this
+   one could claim useability, comprehensiveness and solving a problem by
+   making better decision. this could be then evaluated by an expert study. 
+
+Expertise
+
+   4  (Expert)
+
+The Review
+
+   The paper proposes a visualization system that uses
+   the acquired and annotated map during USAR missions to
+   support access path planning. The system preprocesses the
+   point cloud data to create an interactive three-dimensional
+   rendering that is tailored to increase the commander‘s spatial
+   awareness of the internal structure and further supports the
+   analysis and the planning of viable access paths.
+
+   The motivation clearly and convincingly states the need and use case for
+   the described system. The introduction ends with a list of requirement
+   statements. These could be split into two independent chapters: keep the
+   motivation short, and make a requirement/task analysis chapter with more
+   in-depth discussion on what might be relevant and what you are
+   addressing.
+
+   The related work and the decision making background is very focused,
+   which is adequate for a system-paper!
+
+   The workflow is interesting, but could not find any justification how the
+   proposed method shortens or makes the process more efficient, or faster
+   or better in any way than the current system. If you state "we decrease
+   the overall time to rescue" - you must provide hard evidence!!
+   Honestly, is is hard to believe that "exploration" will speed up decision
+   making... 
+
+   The system overview is where the paper shines; very well presented,
+   comprehensive and follows a logical argumentation and systematic
+   approach! well done!
+
+   The implementation chapter is rather unnecessary... after a system -
+   chapter, I believe these technical details can be significantly shortened
+   within the previous chapter.
+
+   The major problem of the paper is the evaluation. An expert study might
+   be adequate if you claim to solve a problem or show information that is
+   potentially useful to experts and has not been addressed before. However,
+   the evaluation must confirm the claim, and be tight to the claims from
+   the motivation. This is not the case in your paper!
+
+   this needs significant improvement.
+    
+
+
+------------------------ Submission 255, Review 4 ------------------------
+
+
+Paper Type
+
+   System
+
+Scope (relevance to the event)
+
+   3  (Core topic, fits well)
+
+Contribution (novelty, originality)
+
+   3  (Reasonable: some valuable contribution)
+
+References
+
+   3  (At large, all important references are included)
+
+Utility, Importance (relevance in general)
+
+   3  (Addresses clear need)
+
+Soundness (technical soundness, soundness of approach)
+
+   2  (Some concerns on correctness, some choices questionable)
+
+Reproducability
+
+   3  (Everything critical is discussed)
+
+Presentation Quality
+
+   5  (Excellent: exposition is clear and writing flows well)
+
+Overall Rating
+
+   3  (Borderline: the strengths and weaknesses balance for this paper.)
+
+Argumentation Overall Rating
+
+   In geberal, I liked the paper. One main concern: the authors chose to
+   work with a shortest path heuristic and not with the traveling salesman
+   solution which seems to me much more relevant and natural in such
+   scenarios (the authors actually mention and cite the later problem): one
+   would expect a rescuer to go around completing tasks and then exit either
+   where he entered or at another location. I would expect at least a clear
+   explanation why the authors predefed using the A* algorithm over a
+   TSP-approximation (a 2-approximation solution should not be hard to
+   program).  
+
+Expertise
+
+   2  (Passing Knowledge)
+
+The Review
+
+   The paper is interesting and fits the symposium topics. The major
+   contribution is a system that uses visualization to help planning rescue
+   missions. The ideas look sound to me and useful in practice (neverthless,
+   as the experts mention, a real-world evaluation will really help). The
+   writing is clear. The figures are nice and illustrative. The main thing
+   that I have a doubt about is a convincing discussion why the A* algorithm
+   is a better choice than the TSP (or other algorithms?). And if such a
+   claim cannot be established (to my opinion TSP seems better in such
+   scenarios), why not to shift to a 2-approximation TSP which is not hard
+   to implement (or maybe even better approximations). 
+
+
+

@@ -1,0 +1,817 @@
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.11.8)  29 MAR 2014 18:08
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**evaluation.tex
+(./evaluation.tex
+LaTeX2e <2011/06/27>
+Babel <3.9f> and hyphenation patterns for 78 languages loaded.
+(/usr/local/texlive/2013/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
+(/usr/local/texlive/2013/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2010/09/12 v5.6 Page Geometry
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+(/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+(/usr/local/texlive/2013/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count87
+\Gm@cntv=\count88
+\c@Gm@tempcnt=\count89
+\Gm@bindingoffset=\dimen103
+\Gm@wd@mp=\dimen104
+\Gm@odd@mp=\dimen105
+\Gm@even@mp=\dimen106
+\Gm@layoutwidth=\dimen107
+\Gm@layoutheight=\dimen108
+\Gm@layouthoffset=\dimen109
+\Gm@layoutvoffset=\dimen110
+\Gm@dimlist=\toks15
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/preprint/fullpage.sty
+Package: fullpage 1999/02/23 1.1 (PWD)
+\FP@margin=\skip43
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/tools/longtable.sty
+Package: longtable 2004/02/01 v4.11 Multi-page Table package (DPC)
+\LTleft=\skip44
+\LTright=\skip45
+\LTpre=\skip46
+\LTpost=\skip47
+\LTchunksize=\count90
+\LTcapwidth=\dimen111
+\LT@head=\box26
+\LT@firsthead=\box27
+\LT@foot=\box28
+\LT@lastfoot=\box29
+\LT@cols=\count91
+\LT@rows=\count92
+\c@LT@tables=\count93
+\c@LT@chunks=\count94
+\LT@p@ftn=\toks16
+)
+
+LaTeX Warning: Unused global option(s):
+    [8pt].
+
+
+(/Users/alex/Development/Papers/vis14-usar/evaluation/.texpadtmp/evaluation.aux
+)
+\openout1 = `evaluation.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: landscape 
+* h-part:(L,W,R)=(119.2467pt, 556.47656pt, 119.24672pt)
+* v-part:(T,H,B)=(73.71613pt, 430.00462pt, 110.57425pt)
+* \paperwidth=794.96999pt
+* \paperheight=614.295pt
+* \textwidth=709.61174pt
+* \textheight=498.93675pt
+* \oddsidemargin=-29.59087pt
+* \evensidemargin=-29.59087pt
+* \topmargin=-29.59087pt
+* \headheight=0.0pt
+* \headsep=0.0pt
+* \topskip=10.0pt
+* \footskip=30.0pt
+* \marginparwidth=65.0pt
+* \marginparsep=11.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <9> on input line 33.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 33.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 33.
+
+Underfull \vbox (badness 10000) detected at line 35
+ []
+
+[1
+
+{/usr/local/texlive/2013/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+Underfull \vbox (badness 10000) detected at line 83
+ []
+
+
+Overfull \hbox (2.92232pt too wide) in alignment at lines 86--95
+ [] [] [] [] [] [] 
+ []
+
+Missing character: There is no Ã in font cmr9!
+Missing character: There is no ¼ in font cmr9!
+
+Overfull \hbox (2.92232pt too wide) in alignment at lines 95--112
+ [] [] [] [] [] [] 
+ []
+
+[2]
+Underfull \vbox (badness 10000) detected at line 132
+ []
+
+
+Underfull \hbox (badness 2941) in paragraph at lines 147--147
+[]|\OT1/cmr/m/n/9 zeitkritische Men-schen-ret-tung [time-critical
+ []
+
+[3]
+Missing character: There is no â in font cmr9!
+Missing character: There is no € in font cmr9!
+Missing character: There is no “ in font cmr9!
+Missing character: There is no â in font cmr9!
+Missing character: There is no € in font cmr9!
+Missing character: There is no “ in font cmr9!
+
+Underfull \vbox (badness 10000) detected at line 185
+ []
+
+
+Overfull \hbox (15.20467pt too wide) in alignment at lines 188--200
+ [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Underfull \hbox (badness 2393) in paragraph at lines 202--203
+[]|\OT1/cmr/m/n/9 1,08; from 1,28 to 1,38.
+ []
+
+
+Underfull \hbox (badness 3579) in paragraph at lines 203--203
+\OT1/cmr/m/n/9 and in Path 2
+ []
+
+
+Underfull \hbox (badness 2181) in paragraph at lines 213--213
+\OT1/cmr/m/n/9 min-utes, 1:24 min-utes to
+ []
+
+
+Underfull \hbox (badness 2310) in paragraph at lines 213--213
+[]|\OT1/cmr/m/n/9 5 sec-onds, 29 sec-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 214--216
+\OT1/cmr/m/n/9 adding colours.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 214--216
+\OT1/cmr/m/n/9 see ev-ery-thing
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 214--216
+\OT1/cmr/m/n/9 be-cause I am
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 214--216
+\OT1/cmr/m/n/9 work-ing with
+ []
+
+
+Underfull \hbox (badness 2181) in paragraph at lines 219--219
+[]|\OT1/cmr/m/n/9 0:01 - 0:16: heavy rub-
+ []
+
+
+Underfull \hbox (badness 2181) in paragraph at lines 219--219
+\OT1/cmr/m/n/9 0:45 - 0:59: heavy rub-
+ []
+
+
+Underfull \hbox (badness 1478) in paragraph at lines 219--219
+[]|\OT1/cmr/m/n/9 0:06: parts of the
+ []
+
+
+Underfull \hbox (badness 4899) in paragraph at lines 219--219
+\OT1/cmr/m/n/9 col-lapse 0:26: re-
+ []
+
+
+Underfull \hbox (badness 1694) in paragraph at lines 219--219
+\OT1/cmr/m/n/9 mains of fur-ni-ture?
+ []
+
+
+Underfull \hbox (badness 2368) in paragraph at lines 219--219
+\OMS/cmsy/m/n/9 !$ \OT1/cmr/m/n/9 risk of col-lapse
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 219--219
+[]|\OT1/cmr/m/n/9 Video I: 0:35:
+ []
+
+
+Underfull \hbox (badness 2564) in paragraph at lines 219--219
+\OT1/cmr/m/n/9 tion! No tex-
+ []
+
+
+Underfull \hbox (badness 5519) in paragraph at lines 219--219
+\OT1/cmr/m/n/9 to im-prove the
+ []
+
+
+Underfull \hbox (badness 1371) in paragraph at lines 219--219
+\OT1/cmr/m/n/9 tegrity, of miss-
+ []
+
+
+Overfull \hbox (15.20467pt too wide) in alignment at lines 200--221
+ [] [] [] [] [] [] [] [] [] 
+ []
+
+[4] [5]
+Underfull \vbox (badness 10000) detected at line 241
+ []
+
+
+Overfull \hbox (11.0027pt too wide) in alignment at lines 244--255
+ [] [] [] [] [] [] [] [] 
+ []
+
+
+Underfull \hbox (badness 3128) in paragraph at lines 257--257
+[]|\OT1/cmr/m/n/9 Orange path is shorter but
+ []
+
+
+Underfull \hbox (badness 3989) in paragraph at lines 257--257
+[]|\OT1/cmr/m/n/9 Red...farther away from the
+ []
+
+
+Underfull \hbox (badness 1215) in paragraph at lines 265--265
+[]|\OT1/cmr/m/n/9 Not know-ing the haz-ard the
+ []
+
+
+Underfull \hbox (badness 4024) in paragraph at lines 268--268
+[]|\OT1/cmr/m/n/9 Risk is un-known, but how
+ []
+
+
+Overfull \hbox (11.0027pt too wide) in alignment at lines 255--271
+ [] [] [] [] [] [] [] [] 
+ []
+
+[6] [7]
+Underfull \vbox (badness 10000) detected at line 291
+ []
+
+
+Overfull \hbox (17.79623pt too wide) in alignment at lines 294--307
+ [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 308--308
+[]|\OT1/cmr/m/n/9 dark blue:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 308--308
+\OT1/cmr/m/n/9 short-est dis-
+ []
+
+
+Underfull \hbox (badness 1571) in paragraph at lines 308--308
+\OT1/cmr/m/n/9 tance but fur-
+ []
+
+
+Underfull \hbox (badness 3088) in paragraph at lines 308--308
+[]|\OT1/cmr/m/n/9 Red. A lit-tle
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 308--308
+\OT1/cmr/m/n/9 shorter but a
+ []
+
+
+Underfull \hbox (badness 4441) in paragraph at lines 308--308
+\OT1/cmr/m/n/9 lit-tle closer av-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 308--308
+\OT1/cmr/m/n/9 er-age dis-tance
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 308--308
+\OT1/cmr/m/n/9 to the haz-ard.
+ []
+
+
+Underfull \hbox (badness 2951) in paragraph at lines 308--308
+\OT1/cmr/m/n/9 Looked at clos-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 308--308
+\OT1/cmr/m/n/9 est dis-tance
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 308--308
+\OT1/cmr/m/n/9 and fur-ther
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 308--308
+\OT1/cmr/m/n/9 away from
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 308--308
+[]|\OT1/cmr/m/n/9 Dark blue.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 308--308
+\OT1/cmr/m/n/9 Short-est dis-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 308--308
+[]|\OT1/cmr/m/n/9 Closeness to
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 308--308
+[]|\OT1/cmr/m/n/9 Dk blue and
+ []
+
+
+Underfull \hbox (badness 6141) in paragraph at lines 308--308
+\OT1/cmr/m/n/9 red. Would
+ []
+
+
+Underfull \hbox (badness 3679) in paragraph at lines 308--308
+\OT1/cmr/m/n/9 like to see if
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 308--308
+\OT1/cmr/m/n/9 shield-ing be-
+ []
+
+
+Underfull \hbox (badness 3977) in paragraph at lines 309--309
+[]|\OT1/cmr/m/n/9 blue one, be-
+ []
+
+
+Underfull \hbox (badness 3354) in paragraph at lines 309--309
+\OT1/cmr/m/n/9 cause has the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 309--309
+[]|\OT1/cmr/m/n/9 yellow be-cause
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 309--309
+\OT1/cmr/m/n/9 has an higher
+ []
+
+
+Underfull \hbox (badness 3439) in paragraph at lines 309--309
+\OT1/cmr/m/n/9 av-er-age dis-tance
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 309--309
+\OT1/cmr/m/n/9 from haz-ardous
+ []
+
+
+Underfull \hbox (badness 6157) in paragraph at lines 309--309
+[]|\OT1/cmr/m/n/9 Blue one has
+ []
+
+
+Underfull \hbox (badness 4001) in paragraph at lines 309--309
+\OT1/cmr/m/n/9 an higher av-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 309--309
+\OT1/cmr/m/n/9 er-age dis-tance
+ []
+
+
+Underfull \hbox (badness 5504) in paragraph at lines 309--309
+\OT1/cmr/m/n/9 es-sary a long
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 309--311
+[]|\OT1/cmr/m/n/9 average dis-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 309--311
+\OT1/cmr/m/n/9 aera min-i-mal
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 309--311
+\OT1/cmr/m/n/9 dis-tance from
+ []
+
+
+Underfull \hbox (badness 1024) in paragraph at lines 309--311
+\OT1/cmr/m/n/9 Haz area path
+ []
+
+
+Underfull \hbox (badness 1092) in paragraph at lines 312--312
+[]|\OT1/cmr/m/n/9 Light blue be-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 312--312
+\OT1/cmr/m/n/9 far-thest from
+ []
+
+
+Underfull \hbox (badness 3439) in paragraph at lines 312--312
+\OT1/cmr/m/n/9 av-er-age dis-tance
+ []
+
+
+Underfull \hbox (badness 1308) in paragraph at lines 312--312
+\OT1/cmr/m/n/9 what de-vi-a-tion
+ []
+
+
+Underfull \hbox (badness 7685) in paragraph at lines 313--313
+[]|\OT1/cmr/m/n/9 can not read
+ []
+
+
+Underfull \hbox (badness 7685) in paragraph at lines 313--313
+[]|\OT1/cmr/m/n/9 can not read
+ []
+
+
+Underfull \hbox (badness 7685) in paragraph at lines 313--313
+[]|\OT1/cmr/m/n/9 can not read
+ []
+
+
+Underfull \hbox (badness 7685) in paragraph at lines 313--313
+[]|\OT1/cmr/m/n/9 can not read
+ []
+
+
+Underfull \hbox (badness 7685) in paragraph at lines 313--313
+[]|\OT1/cmr/m/n/9 can not read
+ []
+
+
+Underfull \hbox (badness 7685) in paragraph at lines 313--313
+[]|\OT1/cmr/m/n/9 can not read
+ []
+
+
+Underfull \hbox (badness 2261) in paragraph at lines 315--315
+[]|\OT1/cmr/m/n/9 blue as it al-
+ []
+
+
+Underfull \hbox (badness 6284) in paragraph at lines 315--315
+\OT1/cmr/m/n/9 ways has the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 315--315
+[]|\OT1/cmr/m/n/9 the red path
+ []
+
+
+Underfull \hbox (badness 2495) in paragraph at lines 315--315
+\OT1/cmr/m/n/9 seems bet-ter as
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 315--315
+\OT1/cmr/m/n/9 the de-vi-a-tion
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 315--315
+\OT1/cmr/m/n/9 of the av-er-age
+ []
+
+
+Underfull \hbox (badness 2837) in paragraph at lines 315--315
+\OT1/cmr/m/n/9 dis-tance to any
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 315--316
+\OT1/cmr/m/n/9 seems bet-ter,
+ []
+
+
+Underfull \hbox (badness 1270) in paragraph at lines 315--316
+\OT1/cmr/m/n/9 even if longer.
+ []
+
+
+Underfull \hbox (badness 1048) in paragraph at lines 315--316
+\OT1/cmr/m/n/9 risks is al-ways
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 315--316
+\OT1/cmr/m/n/9 higher and
+ []
+
+
+Underfull \hbox (badness 2635) in paragraph at lines 315--316
+\OT1/cmr/m/n/9 the sup-port-ing
+ []
+
+
+Underfull \hbox (badness 1490) in paragraph at lines 315--316
+\OT1/cmr/m/n/9 smaller ground
+ []
+
+
+Underfull \hbox (badness 2582) in paragraph at lines 315--316
+\OT1/cmr/m/n/9 pres-sure for a
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 315--316
+\OT1/cmr/m/n/9 given weight
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 315--316
+\OT1/cmr/m/n/9 dis-tributed to
+ []
+
+
+Underfull \hbox (badness 5681) in paragraph at lines 316--316
+[]|\OT1/cmr/m/n/9 pink, even is
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 316--316
+\OT1/cmr/m/n/9 longest ones.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 316--316
+\OT1/cmr/m/n/9 The longer
+ []
+
+
+Underfull \hbox (badness 5970) in paragraph at lines 316--316
+\OT1/cmr/m/n/9 cyan one has
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 316--316
+\OT1/cmr/m/n/9 only min-i-mal
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 316--316
+\OT1/cmr/m/n/9 sig-nif-i-cantly
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 316--316
+[]|\OT1/cmr/m/n/9 minimal haz-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 316--316
+\OT1/cmr/m/n/9 ard dis-tance,
+ []
+
+
+Underfull \hbox (badness 1259) in paragraph at lines 316--316
+\OT1/cmr/m/n/9 av-er-age haz-ard
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 316--316
+\OT1/cmr/m/n/9 dis-tance, dis-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 316--316
+\OT1/cmr/m/n/9 area, sup-port
+ []
+
+
+Underfull \hbox (badness 1910) in paragraph at lines 316--316
+\OT1/cmr/m/n/9 area de-vi-a-tion,
+ []
+
+
+Underfull \hbox (badness 1158) in paragraph at lines 316--316
+[]|\OT1/cmr/m/n/9 pink and light
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 316--316
+\OT1/cmr/m/n/9 pare if the
+ []
+
+
+Underfull \hbox (badness 5563) in paragraph at lines 316--316
+\OT1/cmr/m/n/9 light green is
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 316--316
+\OT1/cmr/m/n/9 an in-ter-est-ing
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 316--316
+\OT1/cmr/m/n/9 ex-po-sure to
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 316--316
+\OT1/cmr/m/n/9 jus-ti-fied and
+ []
+
+
+Underfull \hbox (badness 5667) in paragraph at lines 316--316
+\OT1/cmr/m/n/9 pro-tec-tion can
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 316--316
+[]|\OT1/cmr/m/n/9 Other rep-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 316--316
+\OT1/cmr/m/n/9 re-sen-ta-tion?
+ []
+
+
+Overfull \hbox (17.79623pt too wide) in alignment at lines 307--319
+ [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[8] [9]
+Underfull \vbox (badness 10000) detected at line 336
+ []
+
+[10]
+Underfull \vbox (badness 10000) detected at line 374
+ []
+
+
+Overfull \hbox (15.02202pt too wide) in alignment at lines 377--389
+ [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Underfull \hbox (badness 2875) in paragraph at lines 392--392
+[]|\OT1/cmr/m/n/9 Yes, but the GUI
+ []
+
+
+Underfull \hbox (badness 1270) in paragraph at lines 392--392
+\OT1/cmr/m/n/9 friendly and un-der-
+ []
+
+
+Underfull \hbox (badness 7963) in paragraph at lines 397--397
+\OT1/cmr/m/n/9 ori-en-ta-tion pur-pose
+ []
+
+
+Underfull \hbox (badness 2376) in paragraph at lines 397--397
+\OT1/cmr/m/n/9 based on the scan
+ []
+
+
+Underfull \hbox (badness 4792) in paragraph at lines 397--397
+\OT1/cmr/m/n/9 haz-ards like struc-
+ []
+
+
+Underfull \hbox (badness 7667) in paragraph at lines 397--397
+\OT1/cmr/m/n/9 tural in-tegrity get
+ []
+
+
+Underfull \hbox (badness 2318) in paragraph at lines 397--397
+[]|\OT1/cmr/m/n/9 Current tools are in the
+ []
+
+
+Underfull \hbox (badness 1033) in paragraph at lines 397--397
+\OT1/cmr/m/n/9 USAR teams (in UN IN-
+ []
+
+Missing character: There is no â in font cmr9!
+Missing character: There is no € in font cmr9!
+Missing character: There is no ¦ in font cmr9!
+
+Overfull \hbox (15.02202pt too wide) in alignment at lines 389--402
+ [] [] [] [] [] [] [] [] [] 
+ []
+
+[11] [12]
+(/Users/alex/Development/Papers/vis14-usar/evaluation/.texpadtmp/evaluation.aux
+) ) 
+Here is how much of TeX's memory you used:
+ 878 strings out of 493315
+ 12254 string characters out of 6137904
+ 102543 words of memory out of 5000000
+ 4377 multiletter control sequences out of 15000+600000
+ 7326 words of font info for 26 fonts, out of 8000000 for 9000
+ 957 hyphenation exceptions out of 8191
+ 23i,6n,19p,1199b,210s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pf
+b></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb>
+</usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></
+usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr
+/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/l
+ocal/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb>
+Output written on /Users/alex/Development/Papers/vis14-usar/evaluation/.texpadt
+mp/evaluation.pdf (12 pages, 105590 bytes).
+PDF statistics:
+ 67 PDF objects out of 1000 (max. 8388607)
+ 46 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+

@@ -1,0 +1,170 @@
+body {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    background-color: darkgrey;
+}
+
+.boxedinfo {
+    border: 1px solid blue;
+    border-radius: 10px;
+    background-color: #e8edff;
+    text-align: justify;
+    padding: 2px 10px 2px 10px;
+    width:50%;
+    min-width:320px;
+}
+
+.boxedinfo#ack {
+    font-size: 13px;
+    background-color: #d0d5e5;
+}
+
+.boxedinfo#nosize {
+    border: 0px;
+    font-size: 11px;
+    width:auto
+}
+
+.boxedinfo#wide {
+    width:30cm;
+    text-align: center;
+}
+
+.title {
+    font-variant: small-caps;
+    font-size:275%;
+}
+
+.titletext {
+    font-size:150%;
+    font-weight: bold;
+    text-align: center;
+}
+
+.boxedinfo + #scenario {
+    margin: 1cm;
+}
+
+.title + * {
+    margin: 1cm;
+}
+
+.media + * {
+    margin: 1cm;
+}
+
+table#scenario + * {
+    margin: 1cm;
+}
+
+table#scenarioVideo + * {
+    margin: 1cm;
+}
+
+media {
+    width: 95%;
+}
+
+table#scenario {
+    width: 95%;
+}
+
+table#scenarioSmall {
+    width: 50%;
+}
+
+table#scenarioVideo {
+    width: 95%;
+    height: 100%;
+}
+
+.media td {
+    padding: 0px 10px 0px 10px;
+}
+
+.media td#small {
+    padding: 10px 10px 10px 10px;
+}
+
+table#scenarioVideo td {
+    padding: 0px 10px 0px 10px;
+}
+
+table#scenarioVideo tr {
+    height: 100%;
+}
+
+.media {
+    background-color: #e8edff;
+}
+
+.question + * {
+    margin: 0.5cm;
+}
+
+.question {
+    border: 1px solid blue;
+    border-collapse: collapse;
+    background-color: #e8edff;
+    text-align: justify;
+    padding: 2px 10px 2px 10px;
+    width: 80%;
+}
+
+.question td {
+    padding: 5px 10px 5px 10px;
+}
+
+.question tr {
+    border: 1px solid blue;
+}
+
+.radiogroup {
+    display: inline-block;
+    text-align: center;
+}
+
+td#radiogroupgroup {
+    width:150px;
+}
+
+.radiogroup label {
+    display: block;
+}
+
+input[type=submit] {
+    float: right;
+}
+
+input[type=submit]#next {
+    float: center;
+    font-size:175%;
+}
+
+textarea {
+    min-width: 400px;
+    min-height: 125px;
+}
+
+#rounded-corner {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-size: 15px;
+    margin: 0px;
+    text-align: left;
+    border-collapse: collapse;
+}
+
+#rounded-corner td {
+    padding: 4px;
+    background: #e8edff;
+    color: #669;
+}
+
+.title + progress {
+    margin: 0.25cm 0cm 1cm 0cm;
+}
+
+progress {
+    width: 75%;
+//    border: 1px solid #000000;
+    color: #e8edff;
+}

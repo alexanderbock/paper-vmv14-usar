@@ -1,0 +1,491 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="401.3075"
+   height="487.08743"
+   id="svg2985"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="workflow.pdf">
+  <defs
+     id="defs2987">
+    <inkscape:path-effect
+       effect="skeletal"
+       id="path-effect3870"
+       is_visible="true"
+       pattern="M 0,0 1,0"
+       copytype="single_stretched"
+       prop_scale="1"
+       scale_y_rel="false"
+       spacing="0"
+       normal_offset="0"
+       tang_offset="0"
+       prop_units="false"
+       vertical_pattern="false"
+       fuse_tolerance="0" />
+    <inkscape:path-effect
+       effect="skeletal"
+       id="path-effect3098"
+       is_visible="true"
+       pattern="M 0,0 1,0"
+       copytype="single_stretched"
+       prop_scale="1"
+       scale_y_rel="false"
+       spacing="0"
+       normal_offset="0"
+       tang_offset="0"
+       prop_units="false"
+       vertical_pattern="false"
+       fuse_tolerance="0" />
+    <inkscape:path-effect
+       effect="skeletal"
+       id="path-effect4010"
+       is_visible="true"
+       pattern="M 0,0 1,0"
+       copytype="single_stretched"
+       prop_scale="1"
+       scale_y_rel="false"
+       spacing="0"
+       normal_offset="0"
+       tang_offset="0"
+       prop_units="false"
+       vertical_pattern="false"
+       fuse_tolerance="0" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.9149904"
+     inkscape:cx="274.58724"
+     inkscape:cy="133.49802"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     units="pt"
+     inkscape:window-width="1920"
+     inkscape:window-height="1014"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
+  <metadata
+     id="metadata2990">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(90.600647,10.800579)">
+    <rect
+       style="fill:#d5f7df;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1.9999994;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect3773"
+       width="168"
+       height="409.34366"
+       x="-36.678574"
+       y="25.767426"
+       rx="9.999999"
+       ry="9.999999" />
+    <text
+       xml:space="preserve"
+       style="font-size:25px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:HelveticaNeueLT Pro 55 Roman;-inkscape-font-specification:HelveticaNeueLT Pro 55 Roman"
+       x="47.112759"
+       y="10.719273"
+       id="text3795"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="47.112759"
+         y="10.719273"
+         id="tspan3799"
+         style="font-size:16px">Current Workflow</tspan></text>
+    <rect
+       style="fill:#d5f7df;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect3773-7"
+       width="168"
+       height="292.4552"
+       x="141.70686"
+       y="25.871809"
+       rx="10"
+       ry="9.999999" />
+    <text
+       xml:space="preserve"
+       style="font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:HelveticaNeueLT Pro 55 Roman;-inkscape-font-specification:HelveticaNeueLT Pro 55 Roman"
+       x="226.25691"
+       y="0.62327385"
+       id="text3795-4"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="226.25691"
+         y="0.62327385"
+         style="font-size:16px"
+         id="tspan3056">Visualization-enhanced</tspan><tspan
+         sodipodi:role="line"
+         x="226.25691"
+         y="20.623274"
+         style="font-size:16px"
+         id="tspan3054">Workflow</tspan></text>
+    <rect
+       style="fill:#ebb3b8;fill-opacity:0.78431373;fill-rule:nonzero;stroke:#3d3d3d;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect3832"
+       width="331.7027"
+       height="16.534451"
+       x="-29.381639"
+       y="32.870667"
+       rx="10"
+       ry="10" />
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:HelveticaNeueLT Pro 55 Roman;-inkscape-font-specification:HelveticaNeueLT Pro 55 Roman"
+       x="136.12775"
+       y="44.233852"
+       id="text3834"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="136.12775"
+         y="44.233852"
+         style="font-size:12px"
+         id="tspan3884">Responders arrive at scene</tspan></text>
+    <rect
+       style="fill:#c1caeb;fill-opacity:0.78431373;fill-rule:nonzero;stroke:#3d3d3d;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect3832-8"
+       width="331.49091"
+       height="28.034813"
+       x="-29.296072"
+       y="56.360203"
+       rx="10.000001"
+       ry="10" />
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:HelveticaNeueLT Pro 55 Roman;-inkscape-font-specification:HelveticaNeueLT Pro 55 Roman"
+       x="136.34048"
+       y="73.443573"
+       id="text3834-2"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="136.34048"
+         y="73.443573"
+         style="font-size:12px"
+         id="tspan3884-4">Inspecting and securing the outside of the building</tspan></text>
+    <rect
+       style="fill:#c1caeb;fill-opacity:0.78431373;fill-rule:nonzero;stroke:#3d3d3d;stroke-width:1.99999976;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect3832-8-5"
+       width="214.29712"
+       height="125.40084"
+       x="-29.202457"
+       y="91.410446"
+       rx="10.000001"
+       ry="10" />
+    <text
+       xml:space="preserve"
+       style="font-size:11.94987965px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:HelveticaNeueLT Pro 55 Roman;-inkscape-font-specification:HelveticaNeueLT Pro 55 Roman"
+       x="137.04863"
+       y="138.93504"
+       id="text3834-2-1"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="137.04863"
+         y="138.93504"
+         style="font-size:11px"
+         id="tspan3884-4-7" /></text>
+    <text
+       xml:space="preserve"
+       style="font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:HelveticaNeueLT Pro 55 Roman;-inkscape-font-specification:HelveticaNeueLT Pro 55 Roman"
+       x="35"
+       y="189.50504"
+       id="text3959"
+       sodipodi:linespacing="125%"
+       transform="translate(0,2.6171875e-5)"><tspan
+         sodipodi:role="line"
+         id="tspan3961"
+         x="35"
+         y="189.50504" /></text>
+    <rect
+       style="fill:#f1f180;fill-opacity:0.6755319;fill-rule:nonzero;stroke:#3d3d3d;stroke-width:1.99999988;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect3832-8-1"
+       width="109.81538"
+       height="83.209724"
+       x="192.67345"
+       y="91.479652"
+       rx="10.000002"
+       ry="10" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot4056"
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:HelveticaNeueLT Pro 55 Roman;-inkscape-font-specification:HelveticaNeueLT Pro 55 Roman"
+       transform="translate(-0.12525797,-38.036867)"><flowRegion
+         id="flowRegion4058"><rect
+           id="rect4060"
+           width="86.071426"
+           height="71.428566"
+           x="204.64285"
+           y="132.36218"
+           style="font-size:12px;text-align:center;line-height:125%;text-anchor:middle" /></flowRegion><flowPara
+         id="flowPara4074">Scaning the</flowPara><flowPara
+         id="flowPara3060">building using</flowPara><flowPara
+         id="flowPara3923">robots</flowPara></flowRoot>    <rect
+       style="fill:#c1caeb;fill-opacity:0.78431373;fill-rule:nonzero;stroke:#3d3d3d;stroke-width:1.99999976;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect3832-8-5-4"
+       width="153.60866"
+       height="180.562"
+       x="-29.596584"
+       y="247.74651"
+       rx="10.000002"
+       ry="10.000001" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot4103"
+       style="font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:HelveticaNeueLT Pro 55 Roman;-inkscape-font-specification:HelveticaNeueLT Pro 55 Roman"><flowRegion
+         id="flowRegion4105"><rect
+           id="rect4107"
+           width="186.42857"
+           height="101.78571"
+           x="3.5714285"
+           y="267.00504" /></flowRegion><flowPara
+         id="flowPara4109" /></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot4121"
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:HelveticaNeueLT Pro 55 Roman;-inkscape-font-specification:HelveticaNeueLT Pro 55 Roman"
+       transform="translate(-13.574843,40.870846)"><flowRegion
+         id="flowRegion4123"><rect
+           id="rect4125"
+           width="113.21429"
+           height="77.85714"
+           x="4.2857141"
+           y="268.79074"
+           style="font-size:12px" /></flowRegion><flowPara
+         id="flowPara4127">Exploration of the</flowPara><flowPara
+         id="flowPara4129">building's interior</flowPara><flowPara
+         id="flowPara4131">and</flowPara><flowPara
+         id="flowPara4133">fulfilling objectives</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot4218"
+       style="font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:HelveticaNeueLT Pro 55 Roman;-inkscape-font-specification:HelveticaNeueLT Pro 55 Roman"><flowRegion
+         id="flowRegion4220"><rect
+           id="rect4222"
+           width="53.92857"
+           height="21.785715"
+           x="209.64285"
+           y="217.36218" /></flowRegion><flowPara
+         id="flowPara4224" /></flowRoot>    <rect
+       style="fill:#f1f180;fill-opacity:0.6755319;fill-rule:nonzero;stroke:#3d3d3d;stroke-width:1.99999964;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect3832-8-1-9-9"
+       width="109.815"
+       height="35.210171"
+       x="192.67363"
+       y="181.88669"
+       rx="10.000002"
+       ry="10" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot4087"
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:HelveticaNeueLT Pro 55 Roman;-inkscape-font-specification:HelveticaNeueLT Pro 55 Roman"
+       transform="translate(15.399516,-1.0710718)"><flowRegion
+         id="flowRegion4089"><rect
+           id="rect4091"
+           width="79.802055"
+           height="28.284271"
+           x="192.43405"
+           y="187.23207"
+           style="font-size:12px" /></flowRegion><flowPara
+         id="flowPara4093">Data exploration</flowPara><flowPara
+         id="flowPara4095">ata</flowPara></flowRoot>    <rect
+       style="fill:#ebb3b8;fill-opacity:0.78431373;fill-rule:nonzero;stroke:#3d3d3d;stroke-width:1.99999988;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect3832-1"
+       width="332.22318"
+       height="16.534451"
+       x="-29.570599"
+       y="224.4839"
+       rx="10.000001"
+       ry="10" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot4259-8"
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:HelveticaNeueLT Pro 55 Roman;-inkscape-font-specification:HelveticaNeueLT Pro 55 Roman"
+       transform="translate(-131.74703,14.45272)"><flowRegion
+         id="flowRegion4261-8"><rect
+           id="rect4263-2"
+           width="160.71248"
+           height="23.43401"
+           x="187.85715"
+           y="212.36218"
+           style="font-size:12px" /></flowRegion><flowPara
+         id="flowPara4265-4">Rescuers enter the building</flowPara></flowRoot>    <rect
+       style="fill:#c1caeb;fill-opacity:0.78431373;fill-rule:nonzero;stroke:#3d3d3d;stroke-width:1.99999976;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect3832-8-5-4-1"
+       width="153.07292"
+       height="63.446323"
+       x="149.06616"
+       y="247.68788"
+       rx="10"
+       ry="10.000001" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot4121-5"
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:HelveticaNeueLT Pro 55 Roman;-inkscape-font-specification:HelveticaNeueLT Pro 55 Roman"
+       transform="translate(149.10129,-17.745614)"><flowRegion
+         id="flowRegion4123-2"><rect
+           id="rect4125-7"
+           width="144.64285"
+           height="65.714279"
+           x="4.2857141"
+           y="268.79074"
+           style="font-size:12px" /></flowRegion><flowPara
+         id="flowPara4127-6">Exploration of the</flowPara><flowPara
+         id="flowPara4129-1">building's interior</flowPara><flowPara
+         id="flowPara4131-4">and</flowPara><flowPara
+         id="flowPara4133-2">fulfilling objectives</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot4256"
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:HelveticaNeueLT Pro 55 Roman;-inkscape-font-specification:HelveticaNeueLT Pro 55 Roman"
+       transform="translate(-35.626001,8.6562096)"><flowRegion
+         id="flowRegion4258"><rect
+           id="rect4260"
+           width="185.71429"
+           height="87.5"
+           x="20.714285"
+           y="109.53114"
+           style="font-size:12px" /></flowRegion><flowPara
+         id="flowPara4262">Inspecting, securing,</flowPara><flowPara
+         id="flowPara3048">and stabilizing</flowPara><flowPara
+         id="flowPara3052">the interior of</flowPara><flowPara
+         id="flowPara3072">the building</flowPara><flowPara
+         id="flowPara3087">without entering</flowPara></flowRoot>    <path
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:1.00000001, 1.00000001;stroke-dashoffset:0"
+       d="m 193.76175,140.04728 107.50194,0"
+       id="path3091"
+       inkscape:connector-curvature="0" />
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Lucida Sans;-inkscape-font-specification:Lucida Sans"
+       x="247.49625"
+       y="153.87613"
+       id="text3925"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="247.49625"
+         y="153.87613"
+         id="tspan3929"
+         style="font-size:12px;font-family:HelveticaNeueLT Pro 55 Roman;-inkscape-font-specification:HelveticaNeueLT Pro 55 Roman">Data</tspan><tspan
+         sodipodi:role="line"
+         x="247.49625"
+         y="168.87613"
+         style="font-size:12px;font-family:HelveticaNeueLT Pro 55 Roman;-inkscape-font-specification:HelveticaNeueLT Pro 55 Roman"
+         id="tspan3084">preprocessing</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:28px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Lucida Sans;-inkscape-font-specification:Lucida Sans"
+       x="-44.285713"
+       y="59.766003"
+       id="text3084"
+       sodipodi:linespacing="125%"
+       transform="translate(-37.678573,-10.800579)"><tspan
+         sodipodi:role="line"
+         id="tspan3086"
+         x="-44.285713"
+         y="59.766003" /></text>
+    <text
+       xml:space="preserve"
+       style="font-size:28px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Lucida Sans;-inkscape-font-specification:Lucida Sans"
+       x="-64.144684"
+       y="91.117249"
+       id="text3876"
+       sodipodi:linespacing="125%"
+       transform="translate(-37.678573,-10.800579)"><tspan
+         sodipodi:role="line"
+         id="tspan3878"
+         x="-64.144684"
+         y="91.117249" /></text>
+    <text
+       xml:space="preserve"
+       style="font-size:22px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Lucida Console;-inkscape-font-specification:Lucida Console"
+       x="-67.878967"
+       y="48.029007"
+       id="text3880"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3882"
+         x="-67.878967"
+         y="48.029007">I</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:22px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Lucida Console;-inkscape-font-specification:Lucida Console"
+       x="-67.878967"
+       y="77.268723"
+       id="text3884"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3886"
+         x="-67.878967"
+         y="77.268723">II</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:22px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Lucida Console;-inkscape-font-specification:Lucida Console"
+       x="-67.878967"
+       y="155.37698"
+       id="text3888"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3890"
+         x="-67.878967"
+         y="155.37698">III</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:22px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Lucida Console;-inkscape-font-specification:Lucida Console"
+       x="-68.7276"
+       y="227.64224"
+       id="text3892"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3894"
+         x="-68.7276"
+         y="227.64224">IV</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:22px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Lucida Console;-inkscape-font-specification:Lucida Console"
+       x="-67.873596"
+       y="352.86914"
+       id="text3896"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3898"
+         x="-67.873596"
+         y="352.86914">V</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:28px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Lucida Console;-inkscape-font-specification:Lucida Console"
+       x="-68.241272"
+       y="11.077659"
+       id="text3079"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3081"
+         x="-68.241272"
+         y="11.077659"
+         style="font-size:16px">Phase</tspan></text>
+  </g>
+</svg>
