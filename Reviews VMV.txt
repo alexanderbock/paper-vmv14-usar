@@ -1,0 +1,164 @@
+====================================================================
+Reviews
+====================================================================
+Scale:
+0 - totally unacceptable;1 - very poor;2 - poor;3 - clearly below EG standard;
+4 - dubious - not quite acceptable;5 - marginal - only just acceptable;6 - 
+acceptable;7 - good;8 - very good;9 – excellent
+
+Note: Overall Recommendation is slightly different:
+0 - totally unacceptable;1 - very poor;2 - poor;3 - clearly below EG standard;
+4 - dubious;5 - not quite acceptable;6 - marginal - only just acceptable;7 - 
+acceptable;8 - good;9 - very good;10 – excellent
+
+
+
+-------------------- Review 1 --------------------
+Overall Recommendation: 9
+Evaluation Confidence: 2
+
+Classification: Research paper (presents innovative research results)
+
+
+Summary: The paper describes a system that supports an incident commander in finding suitable paths in indoor settings and selecting an optimal path depending on multiple criteria. Properties of paths are visualized on several linked displays: profile plot, parallel coordinates, and scatter-plot matrix.
+
+The system has been evaluated by several domain experts (professional fire-fighters) and received positive feedback. It should be noted, however, that they did not value high the proposed infovis displays.
+
+A substantial part of the paper is about using point cloud data for reconstructing the 3D indoor environment. This is not my area of research, therefore I can't assess this part.
+
+
+Originality, Novelty: 7
+Comment:an interesting combination of techniques
+
+Clarity of Presentation: 8
+Comment:everything is described clearly
+
+Technical Soundness: 7
+Comment:ok - however I can't assess the point cloud part
+
+Importance, utility: 7
+Comment:in my opinion, this is an interesting practical application based on the integration of methods from 3d point clouds and infovis
+
+Suitable for event: 9
+Comment:perfect match to VMV
+
+Reproducibility: 8
+Comment:ok
+
+Completeness of references: 7
+Comment:I am missing references to to visualization of trajectory data in 2d and 3d environments and to visualization support to multi-criteria decision analysis (including sensitivity to weights) in geospatial context, see
+"Informed Spatial Decisions through Coordinated Views"
+doi: 10.1057/palgrave.ivs.9500058 
+Information Visualization December 2003 vol. 2 no. 4 270-285
+
+Best Paper Award?: YES
+
+
+Justification for Decision: the paper describes an interesting combination of tools in application to an important practical problem
+
+
+Additional comments for the authors: -
+
+
+-------------------- Review 2 --------------------
+Overall Recommendation: 6
+Evaluation Confidence: 3
+
+Classification: Research paper (presents innovative research results)
+
+
+Summary: see below
+
+
+Originality, Novelty: 5
+Comment:
+
+Clarity of Presentation: 5
+Comment:I was missing a discussion of data acquisition properties and 2D image data
+
+Technical Soundness: 5
+Comment:Evaluation is somewhat limited as only the concept was evaluated, and not a real analysis session was exercised
+
+Importance, utility: 6
+Comment:
+
+Suitable for event: 6
+Comment:
+
+Reproducibility: 4
+Comment:Reproducibility is limited as only few researchers will have access to respective data and 3D acquisition robots.
+
+Completeness of references: 6
+Comment:
+
+Best Paper Award?: NO
+
+
+Justification for Decision: The authors develop a concept for supporting rescue mission planning by a visual analysis system. Based on 3D point cloud data from a site of interest, the system computes candidate navigation paths which responders could take. Candidate paths can be compared in a 3D visualization. Also, properties of the paths like distance to hazard, length, uncertainty etc. can be compared by profile lines, parallel coordinate plots, and scatter plots. A prototypical implementation was created and applied to test data sets from a construction site and an actual building rescue mission. A qualitative evaluation of the concept was done with a panel of nine urban search and rescue experts. The evaluation showed principal interest in the tool, with some reservations to the scatter plot matrix view, which was regarded too time-consuming to use in a rescue scenario.
+
+The presented concept is interesting and a respective path planning tool may be highly useful for actual emergency operations. I found the concept to be described clearly. It focuses on important data properties, including spatial measurements of the site of interest, and comparative visualization of possible paths for selection. A set of relevant measurements for the paths are identified such as distance to hazard, planarity, length etc. which seem all relevant to the decision maker. The visual design of the tool is regarded plausible, although it seems, no iterative design process was adopted. It may have been useful to include domain experts early on in the design, which may have also helped with finding a better role for the SPLOM technique.
+
+The approach raises for me a couple of questions which could be discussed in more detail in the paper. What I am missing is a more in-depth consideration of 2D image and video data as an alternative or complementary modality. Working with 3D point clouds may involve complications with regard to data acquisition (e.g., how reliable is point cloud data in case of smoke, fire, variable illumination conditions etc.?) Will experts really rely on the point cloud data without considering 2D images from the interior? Also, the approach depends on classification of point cloud regions wrt. environmental properties. This seems to be done interactively. Do rescue operators have time to manually annotate, and how is this supported? Which automatic methods for classification are possible? Again here I think one needs to rely on 2D image information. Right now the whole data acquisition process is treated as a black box in the paper (referring to an unmanned robot doing the acquisition). It would be nice to have more discussion on these items.
+
+The paper may be acceptable on a margin basis and I would expect it to stimulate discussion on this novel and challenging application field.
+
+
+
+Additional comments for the authors: 
+
+
+-------------------- Review 3 --------------------
+Overall Recommendation: 9
+Evaluation Confidence: 2
+
+Classification: Research paper (presents innovative research results)
+
+
+Summary: The paper presents a visualization system to support emergency teams for planning search and rescue missions. It consists of multiple coordinated views that combine 3D point cloud renderings of the mission sites gathered via image sensing by robots together with different abstract representations of possible paths for rescue workers. Mission planners can interactively enter hazard areas and explore tradeoffs between different paths through different visual representations such as parallel coordinate plots or profile plots.
+   The work is highly relevant and technically sound. Furthermore, a user evaluation with domain experts has been conducted to validate the designed system. On the downside, a lot of details are missing in the evaluation part and it is hard to assess its validity.
+
+
+Originality, Novelty: 7
+Comment:A combination of what could be called SciVis and InfoVis techniques is used rather rarely usually. This work shows particularly fruitful overlaps between those currents with for example integrating the 3D rendering with rich user interaction possibilities.
+
+Clarity of Presentation: 7
+Comment:The paper is good to read and follow. However, some parts are hard to read because a multitude of less commonly used abbreviations are introduced and used.
+
+Technical Soundness: 8
+Comment:The technical approach is solid as far is it can be assessed from the paper and the accompanying video.
+
+Importance, utility: 8
+Comment:Rescuing people from devastated sites and collapsed buildings is a very important and dangerous endeavor that can benefit a great deal by assistive technologies. The authors also managed to show the utility of their proposed interfaces by carrying out a remot evaluation based on questionnaires with domain experts.
+
+Suitable for event: 9
+Comment:The paper is very well suited to be included in the VMV program.
+
+Reproducibility: 7
+Comment:Details and technical backgrounds for the different applied techniques are described sufficiently well to be reproduced. Only study material (videos and screenshots used) should also be added to the supplementary material to ensure reproducibility.
+
+Completeness of references: 7
+Comment:Some more references about indoor navigation could be included such as for example:
+   - Harris, M., The way through the flames, Spectrum, IEEE , vol.50, no.9, pp.30,35, September 2013
+doi: 10.1109/MSPEC.2013.6587186
+   - Fischer, Carl, and Hans Gellersen. Location and navigation support for emergency responders: A survey. IEEE Pervasive Computing 9.1 (2010): 38-47.
+   - Wilson, J.; Bhargava, V.; Redfern, A; Wright, P., A Wireless Sensor Network and Incident Command Interface for Urban Firefighting, Mobile and Ubiquitous Systems: Networking & Services, 2007. MobiQuitous 2007. Fourth Annual International Conference on , vol., no., pp.1,7, 6-10 Aug. 2007
+   - and many more
+
+Best Paper Award?: YES
+
+
+Justification for Decision: The paper constitutes a well done design study paper that includes an introduction into the domain, shows how domain experts were involved in the process, describes the design tradeoffs taken, their results as well as an evaluation with domain experts. It fits very well to the venue and would be a valuable contribution to have it published.
+
+
+Additional comments for the authors: - Discussion of related work is missing. Eg., What is missing in the STAR? Why is the work needed?
+   - Fig. 3 is much too small and should be enlarged in order to be readable.
+   - In 5.2. it is mentioned that users can directly interact with the 3D rendering. However, a description of how interactions are done is missing (also in other parts there is not much description on how users can actually interact).
+   - Furthermore, it is not clear whether this is this a desktop application or built for a mobile device (with touch interaction)? 
+   - Very good to see that design rationales are given.
+   - Scatter Plot Matrix: It's not clear to me what can be seen here. 
+   - Parallel Coordinate Plot: Interactions are very important here (e.g., axis reordering), but not described.
+   - Lot of details missing for the evaluation part which makes it hard to assess its validity.
+   - At some places, avarages are reported for evaluation results. However, it is not clear what this values mean (e.g. average 3.5) without the information about the scale. Further, an average doesn't tell very much - some more details necessary to get a better impression (e.g., variance, standard deviation, etc.). 
+   - The conclusion is more a summary. The authors should make explicit their main contributions and novelty aspects and discuss what can be generalized to other areas? 
+   - Very good supplementary material that contains detailed results of the user study.
+   - What is missing, however, is the study material (videos and screenshots used) which is important it ensure reproducibility.

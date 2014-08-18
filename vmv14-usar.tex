@@ -105,20 +105,15 @@
 % end of prologue
 
 
-%% Paper title.
-%\title[Decision-Support for Search \& Rescue Planning]{Decision-Support for Urban Search \& Rescue Mission Planning through Visualization-Based Analysis}
 \title[Urban Search \& Rescue Mission Planning]{Supporting Urban Search \& Rescue Mission Planning\\ through Visualization-Based Analysis}
 
-\author[Bock \etal]{
-    Alexander Bock$^1$, Alexander Kleiner$^2$, Jonas Lundberg$^3$, and Timo Ropinski$^1$\\%
-    $^1$Scientific Visualization Group, Link\"oping University\\%
-    $^2$Collaborative Robotics Group, Link\"oping University\\%
-    {\small $^3$Graphic Design Group, Link\"oping University}
-}   
-
-%% ACM Computing Classification System (CCS). 
-%% See <http://www.acm.org/class/1998/> for details.
-%% The ``\CCScat'' command takes four arguments.
+\author{paper1006}
+%\author[Bock \etal]{
+%    Alexander Bock$^1$, Alexander Kleiner$^2$, Jonas Lundberg$^3$, and Timo Ropinski$^1$\\%
+%    $^1$Scientific Visualization Group, Link\"oping University\\%
+%    $^2$Collaborative Robotics Group, Link\"oping University\\%
+%    {\small $^3$Graphic Design Group, Link\"oping University}
+%}   
 
 %% Uncomment below to disable the manuscript note
 %\renewcommand{\manuscriptnotetxt}{}
@@ -171,7 +166,7 @@ Structural damage to inhabited buildings is an ever-present danger. As time-to-r
 
 In recent years, technological developments made it possible to use unmanned vehicles to perform the initial exploration. The robots are deployed and are equipped with sensors that can detect victims, gather information about potentially hazardous environments, and perform detailed scans of the interior. After the map has been acquired, the \IC\ can analyze the collected data and plan access paths that reach certain \emph{Points of Interest} (POIs). In most cases, these POIs are potential locations of victims, but they can also be other mission critical areas.
 
-In this paper, we propose a visualization system that creates an interactive 3D rendering tailored to increase the \IC 's awareness of internal structures (see Figure~\ref{fig:teaser}~(a-c)) and supports the planning and analysis of access paths (see Figure~\ref{fig:teaser}~(d)). Our system computes an ensemble of access paths from the entry point to the POIs, where each path is based on varying weighting factors. Uncertainty in the data and a priori unknown information make it infeasible to employ automatic algorithms to detect the globally optimal path. Our system supports the \IC\ in the process of analyzing and comparing all available paths at once to minimize the rescuer's danger and travel time.
+In this paper, we propose a visualization system that creates an interactive 3D rendering tailored to increase the \IC 's awareness of internal structures (see Figure~\ref{fig:teaser}~(a-c)) and supports the planning and analysis of access paths (see Figure~\ref{fig:teaser}~(d)). Our system computes an ensemble of access paths from the entry point to the POIs, where each path is based on varying weighting factors. Uncertainty in the data and a priori unknown information make it infeasible to employ automatic algorithms to detect the globally optimal path. Our system supports the \IC\ in the process of analyzing and comparing all available paths at once to minimize the rescuer's danger and travel time. We describe system requirements, design considerations, technical realizations, and we discuss how experts perform in reading the visualizations, how they rate their own understanding, and what preferences they have for the visualizations.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -198,7 +193,7 @@ The \emph{Extended Control Model} (ECOM) describes plans in terms of a tactical 
 
 \begin{figure}
 	\centering
-	\includegraphics[height=0.75\columnwidth]{figures/workflow.pdf}
+	\includegraphics[height=0.8125\columnwidth]{figures/workflow.pdf}
 	\caption{A schematic timeline overview of the currently employed workflow and our proposed system, showing events (red) and actions (blue) split up into five distinct phases. Utilizing the additional actions (yellow) in parallel enables faster exploration and decreased overall time-to-rescue.}
 	\label{fig:workflow:workflow}
 \end{figure}
@@ -370,10 +365,10 @@ Figure~\ref{fig:overview:analysis:paths} shows a subset of computed paths after 
 \section{Evaluation} \label{sec:evaluation}
 We performed an evaluation of our system with nine external experts working in the field of Urban Search \& Rescue. Of these experts, five (A--E) are emergency responders, three (F--H) are researchers, and one (J) is a consultant for a national technical relief agency. As the goal of the study was to include as many international experts as possible, and being aware of their time constraints, we decided to create videos and images of our system for the application case and created an interactive webpage rather than requiring training for hands-on use of our system. 7 of 9 experts finished the evaluation and provided answers to all questions. In the analysis, we consider the partial responses for the cases where an answer was provided. The full evaluation and replies are available in the supplemental material. Here, we will discuss important positive and negative answers by the experts. \\
 \textbf{Path Representation} This component tests the usefulness of embedding the paths into the 3D rendering. It shows three images depicting a similar situation as Figure~\ref{fig:teaser:2} with three paths each. We asked the experts which of the paths they would choose and all but two chose the paths that evaded the hazards. A second question was asked to compare the lengths of the shortest and the longest path. While the correct answer was 1.54$\times$, the experts stated an average of 2.56$\times$. This means that, while the experts are capable of estimating the length, they overestimate path distances, making it necessary to provide accurate information in the PP and PCP.\\
-\textbf{Profile Plot} In order to evaluate the PP, we provided a reduced plot containing only the orange, green, and yellow paths from Figure~\ref{fig:overview:analysis:profile}. We asked the experts to assess their understanding of the plot (average: 3.5) and the usefulness (average: 3.71). We asked the experts to relate the two longest paths to each other; six experts arrived at the correct conclusion that the orange path is shorter, but crosses the hazard area once and can be considered as less safe. \\
-\textbf{Parallel Coordinates Plot} The level of self-assessed understanding is significantly lower than the PP (average: 1.66 vs. 3.5) which can be attributed to the fact the experts might be more familiar with line plots than PCPs. Despite their unfamiliarity, all five experts providing feedback answered the questions about the shortest and the safest path correctly, identifying the path with the lowest path length and the highest minimal distance. In the following open questions, the experts favored safe, long paths over shorter, more dangerous paths while not paying much attention to the available support. This confirmed our previous discussion about the ordering of attributes in the PCP. The experts rated the usefulness of the PCP with an average of 2.14. \\
-\textbf{Scatterplot Matrix} For this representation, the very low level of self-assessed knowledge (average: 1.16) and usefulness (average: 1.28) is, just as the PCP, probably due to the fact that few, if any, experts have worked with SPLOMs before. Only J provided replies to the questions asking for the shortest and the most stable path with regard to the hazard distance, and provided the correct answer. A comment from E summarizes the result for the SPLOM component: ``[this] is more information than I would want to interpret during a SAR mission''. A SPLOM can have a beneficial impact to multivariate analysis~\cite{6064985}, but given the experts' reluctance, we plan to make the SPLOM optional instead.\\
-\textbf{Miscellaneous} For the last part, we asked for general feedback from the experts. J said that ``not detected hazards like structural integrity get visible by the density of scan points''. To the question if they ``[would] like to use [the] system in addition, or as a replacement, to [their] current tools'', B, C, E, F, and J were positive to using our system in addition to their current set of tools rather than of a full replacement. C would like to use it after a ``period of experimentation'', while J sees the system as ``an addition which is warmly welcome''. The only negative comment was from D, which regards the system as too complicated. 
+\textbf{Profile Plot} To evaluate the PP, we provided a reduced plot containing only the orange, green, and yellow paths from Figure~\ref{fig:overview:analysis:profile}. We asked the experts to assess their understanding of the plot (average: 3.5) and its usefulness (average: 3.71). We asked the experts to relate the two longest paths to each other; all eight experts providing answers arrived at the correct conclusion that the orange path is shorter, but crosses the hazard area once. \\
+\textbf{Parallel Coordinates Plot} The level of self-assessed understanding is lower than the PP (average: 1.66 vs. 3.5) which can be attributed to the fact the experts might be more familiar with line plots than PCPs. Despite their unfamiliarity, all five experts providing feedback answered identified the shortest and the safest path correctly. This, and the average rated usefulness of 2.14,  agrees with previous research that a dissociation between preference and performance is common in interface design~\cite{andre1995users}. In the following open questions, the experts favored safe, long paths over shorter, more dangerous paths while not paying much attention to the available support. This confirmed our previous discussion about the ordering of attributes in the PCP.\\
+\textbf{Scatterplot Matrix} For this representation, the very low level of self-assessed knowledge (average: 1.16) and usefulness (average: 1.28) is, just as the PCP, probably due to the fact that few, if any, experts have worked with SPLOMs before. Only J provided replies to the questions asking for the shortest and the most stable path with regard to the hazard distance, and provided the correct answer. A comment from E summarizes the result for the SPLOM component: ``[this] is more information than I would want to interpret during a SAR mission''. A SPLOM can have a beneficial impact to multivariate analysis~\cite{6064985}, but given the experts' reluctance, we make the SPLOM optional instead.\\
+\textbf{Miscellaneous} For the last part, we asked for general feedback from the experts. J said that ``not detected hazards like structural integrity get visible by the density of scan points''. To the question if they ``[would] like to use [the] system in addition, or as a replacement, to [their] current tools'', B, C, E, F, and J were positive to using our system in addition to their current set of tools rather than of a full replacement. The only negative comment was from D, which regards the system as too complicated. 
 
 In conclusion, we received valuable feedback from the experts and we can see that most experts liked the system and would like to use it as a decision-support tool alongside their current applications. With the exception of the SPLOM, the majority of experts were able to retrieve important data from our system and use it for their decision-making.
 
@@ -381,16 +376,16 @@ In conclusion, we received valuable feedback from the experts and we can see tha
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Conclusions and Future Work} \label{sec:conclusion}
-We presented a visualization system that optimizes the workflow of an incident commander when dealing with search \& rescue missions. We designed a linked, multiple-view system that computes and analyzes an ensemble of rescue paths. The resulting information is visualized for the \IC , who selects a path that is an optimal trade-off according to his experience and knowledge. To investigate the usefulness of the proposed system we have conducted a study with expert users. The resulting feedback makes us confident that the proposed system has the potential to improve future search \& rescue missions.
+We presented a visualization system that optimizes the workflow of the \IC\ when dealing with SAR missions. We designed a linked, multiple-view system that computes and analyzes an ensemble of rescue paths. The resulting information is visualized for the \IC , who selects a path that is an optimal trade-off according to his experience and knowledge. To investigate the usefulness of the proposed system we have conducted a study with expert users. The resulting feedback makes us confident that the proposed system has the potential to improve future search \& rescue missions.
 
-For future work, we like to perform a thorough in-use evaluation workshop with domain experts accompanying a real-world rescue scenario. This will provide us with valuable direct feedback to improve usability of the system. Furthermore, we plan to investigate the applicability of adaptive and stochastic sampling, like Monte-Carlo methods, on the high-dimensional parameter space for path computation.
+For future work, we like to perform a thorough in-use evaluation workshop with domain experts accompanying a real-world rescue scenario. This will provide us with valuable direct feedback to improve usability of the system. This includes researching methods on how to familiarize the SAR experts with the PCP and the SPLOM method. Furthermore, we plan to investigate the applicability of adaptive and stochastic sampling, like Monte-Carlo methods, on the high-dimensional parameter space for path computation.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\section*{Acknowledgments}
-We like to thank the IRIDeS, the CREATE, and the IRS institutes for their cooperation in retrieving the Tohoku university scans.
-This work was partly supported by grants from the Excellence Center at Link\"oping and Lund in Information Technology (ELLIIT) and the Swedish e-Science Research Centre (SeRC), as well as VR grant 2011-4113. We would like to thank the external experts for taking their time to take part in the evaluation. The presented concepts have been realized using the Voreen framework (www.voreen.org).
+%\section*{Acknowledgments}
+%We like to thank the IRIDeS, the CREATE, and the IRS institutes for their cooperation in retrieving the Tohoku university scans.
+%This work was partly supported by grants from the Excellence Center at Link\"oping and Lund in Information Technology (ELLIIT) and the Swedish e-Science Research Centre (SeRC), as well as VR grant 2011-4113. We would like to thank the external experts for taking their time to take part in the evaluation. The presented concepts have been realized using the Voreen framework (www.voreen.org).
 
 \bibliographystyle{eg-alpha-doi}
 %%use following if all content of bibtex file should be shown
